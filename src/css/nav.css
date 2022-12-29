@@ -1,0 +1,66 @@
+header{
+    width: 96%;
+    height: 9rem;
+    background-color: antiquewhite;   
+    margin: 0 auto;
+    border-radius: 2rem;
+    border: 1px solid #acacb8;
+    margin-top: 1rem;
+}
+.barra{
+    max-width: 100%;
+    padding: 0 1rem;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+    float: left;
+}
+.icon div{
+    margin: auto 0;
+    font-size: 2.8rem;
+    font-family: 'Satisfy', cursive;
+}
+.icon .logo{
+    width: 9.5rem;
+}
+nav{
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 9rem;
+    margin-right: 2rem;
+}
+nav ul{
+    list-style: none;
+}
+ul button {
+    transition: .3s linear;
+    display: inline-block;
+    margin: 0 1rem;
+    color: #ff495c;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family:'Segoe UI';
+    border: #fd6070 1px solid;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    background-color: antiquewhite;
+}
+ul button li{
+    color:#ff495c
+}
+ul a li{
+    color: #ff495c;
+}
+ul a{
+    transition: .3s linear;
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family:'Segoe UI';
+    border: #fd6070 1px solid;
+    padding: 0.4rem;
+    border-radius: 1rem;
+}
