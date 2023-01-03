@@ -536,10 +536,16 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _index = require("./routes/index");
 var _indexDefault = parcelHelpers.interopDefault(_index);
 window.addEventListener("load", (0, _indexDefault.default));
+let button1 = document.getElementById("menu-selected1");
 let button2 = document.getElementById("menu-selected2");
 let button3 = document.getElementById("menu-selected3");
 let button4 = document.getElementById("menu-selected4");
 let button5 = document.getElementById("menu-selected5");
+button1.addEventListener("click", async ()=>{
+    await elegir("1");
+    await (0, _indexDefault.default)();
+    await scroll();
+});
 button2.addEventListener("click", async ()=>{
     await elegir("2");
     await (0, _indexDefault.default)();
@@ -683,13 +689,13 @@ const data = ()=>{
 const menu = async ()=>{
     const info = await data();
     return `<div class="menu-selected" id="${(0, _getHashDefault.default)() + "*"}"> 
-                <div class="item-container">
-                <div class="close-icon"><a href="/"><img rel="icon" src="https://icon-library.com/images/svg-close-icon/svg-close-icon-4.jpg" width="20px"></a></div>
+        <div class="close-icon"><a href="/"><img rel="icon" src="https://icon-library.com/images/svg-close-icon/svg-close-icon-4.jpg" width="20px"></a></div>
+        <div class="item-container">
         <div>
         <h2>${title}</h2>
-        <div>
-        ${info.map((item)=>(0, _itemDefault.default)(item))}
         </div>
+        <div class="items">
+        ${info.map((item)=>(0, _itemDefault.default)(item))}
         </div>
         </div>
         </div>`;
@@ -700,7 +706,7 @@ exports.default = menu;
 const products = [
     {
         name: "TRATAMIENTO FITOTERAPEUTICO PANCREAS:",
-        photo: "https://i.postimg.cc/v8tHBjg4/arteriac.png",
+        photo: "https://i.postimg.cc/VkkG0xN8/pancreas.png",
         description: `
     Diseñado para ayudar al
     organismo a convertir los
@@ -727,7 +733,7 @@ const products = [
     },
     {
         name: "TRATAMIENTO FITOTERAPEUTICO COLON:",
-        photo: "assets/images/colon.png",
+        photo: "https://i.postimg.cc/qvJYXtjW/colon.png",
         description: `Está elaborado con la
     mejor calidad de plantas
     medicinales capaces de
@@ -757,7 +763,7 @@ const products = [
     },
     {
         name: "TRATAMIENTO FITOTERAP\xc9UTICO DETOX:",
-        photo: "assets/images/detox.png",
+        photo: "https://i.postimg.cc/Gp95VW0Q/detox.png",
         description: `Nuestro organismo suele
     acumular muchos
     desechos tóxicos como
@@ -797,7 +803,7 @@ const products = [
     },
     {
         name: "TRATAMIENTO FITOTERAPEUTICO RI\xd1ON:",
-        photo: "assets/images/ri\xf1on.png",
+        photo: "https://i.postimg.cc/VkZ7qKSb/ri-on.png",
         description: `Su fórmula Fito
     terapéutica fue
     diseñada para
@@ -825,7 +831,7 @@ const products = [
     },
     {
         name: "TRATAMIENTO FITOTERAPEUTICO MUCOSA:",
-        photo: "assets/images/mucosa.png",
+        photo: "https://i.postimg.cc/PxwFr15v/mucosa.png",
         description: `Fue creado para el
     tratamiento preventivo y
     curativo en enfermedades
@@ -858,7 +864,7 @@ const products = [
     },
     {
         name: "TRATAMIENTO FITOTERAPEUTICO CARTILAGO:",
-        photo: "assets/images/cartilago.png",
+        photo: "https://i.postimg.cc/L5FQqhJC/cartilago.png",
         description: `nuestro sistema articular, se
     deteriora no solo con la
     edad, las malas posturas, el
@@ -889,7 +895,7 @@ const products = [
     },
     {
         name: "TRATAMIENTO FITOTERAPEUTICO HIGADO:",
-        photo: "assets/images/higado.png",
+        photo: "https://i.postimg.cc/0yV4t84j/higado.png",
         description: `Elaborado con las
     mejores plantas
     medicinales capaces
@@ -918,7 +924,7 @@ const products = [
     },
     {
         name: "TRATAMIENTO FITOTERAPEUTICO OVARIO:",
-        photo: "assets/images/ovario.png",
+        photo: "https://i.postimg.cc/CMb63C2W/ovario.png",
         description: `Este medicamento fue
     diseñado especialmente
     para la mujer en el
@@ -946,7 +952,7 @@ const products = [
     },
     {
         name: "MEDICAMENTO HERBAL EQUINACEA :",
-        photo: "assets/images/equinacea.png",
+        photo: "https://i.postimg.cc/Vv9GX1MY/equinacea.png",
         description: `Actúa de manera
     natural, elevando
     las defensas y
@@ -976,7 +982,7 @@ const products = [
     },
     {
         name: "TRATAMIENTO FITOTERAPEUTICO ARTERIA C:",
-        photo: "src/assets/images/arteriac.png",
+        photo: "https://i.postimg.cc/kMSknP2Y/arteriac.png",
         description: `Nuestro sistema
     circulatorio lleva
     oxígeno, nutrientes y
@@ -1004,7 +1010,7 @@ const products = [
     },
     {
         name: "TRATAMIENTO FITOTERAPEUTICO ARTERIA G:",
-        photo: "assets/images/arteriag.png",
+        photo: "https://i.postimg.cc/Fsg8Lbgj/arteriag.png",
         description: `Las grasas no fluyen de manera ágil en el sistema circulatorio, por lo
     que no se lleva acabo
     adecuadamente la
@@ -1031,7 +1037,7 @@ const products = [
     },
     {
         name: "TRATAMIENTO FITOTERAPEUTICO PULMON:",
-        photo: "assets/images/pulmon.png",
+        photo: "https://i.postimg.cc/FsZCRrNp/pulmon.png",
         description: `Los pulmones nos permiten
     respirar la entrada de
     oxígeno a nuestros cuerpos y
@@ -1058,7 +1064,7 @@ const products = [
     },
     {
         name: "TRATAMIENTO FITOTERAPEUTICO NEURO:",
-        photo: "assets/images/neuro.png",
+        photo: "https://i.postimg.cc/N0VzcdBw/neuro.png",
         description: `Todas las personas
     hemos pasado por algún
     trastorno del sistema
@@ -1149,10 +1155,8 @@ parcelHelpers.defineInteropFlag(exports);
 const returnItem = (data)=>{
     return `<div class="item-info">
     <h3>${data.name}</h3>
-    <p>${data.description}</p>
-    <div class="image-product">
     <img src=${data.photo} alt="">
-    </div>
+    <p>${data.description}</p>
 </div>`;
 };
 exports.default = returnItem;

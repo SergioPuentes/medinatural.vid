@@ -3,13 +3,17 @@ import router from "./routes/index"
 
 window.addEventListener("load", router)
 
-
+let button1 = document.getElementById("menu-selected1")
 let button2 = document.getElementById("menu-selected2")
 let button3 = document.getElementById("menu-selected3")
 let button4 = document.getElementById("menu-selected4")
 let button5 = document.getElementById("menu-selected5")
 
-
+button1.addEventListener("click", async()=>{
+    await elegir("1")
+    await router()
+    await scroll()
+})
 button2.addEventListener("click", async()=>{
     await elegir("2")
     await router()

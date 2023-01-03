@@ -25,13 +25,13 @@ const data = ()=>{
 const menu = async ()=>{
         const info = await data()
         return `<div class="menu-selected" id="${getHash()+"*"}"> 
-                <div class="item-container">
-                <div class="close-icon"><a href="/"><img rel="icon" src="https://icon-library.com/images/svg-close-icon/svg-close-icon-4.jpg" width="20px"></a></div>
+        <div class="close-icon"><a href="/"><img rel="icon" src="https://icon-library.com/images/svg-close-icon/svg-close-icon-4.jpg" width="20px"></a></div>
+        <div class="item-container">
         <div>
         <h2>${title}</h2>
-        <div>
-        ${info.map(item =>returnItem(item))}
         </div>
+        <div class="items">
+        ${info.map(item =>returnItem(item))}
         </div>
         </div>
         </div>`
