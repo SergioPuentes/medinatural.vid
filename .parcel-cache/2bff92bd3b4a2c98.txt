@@ -1,26 +1,29 @@
-4671
-60/home/sergiop27/personalProyects/medinatural/dist/index.html1672729140142670221 0
+4677
+60/home/sergiop27/personalProyects/medinatural/dist/index.html1672907811099204282 0
 72/home/sergiop27/personalProyects/medinatural/dist/index.d735ce98.css.map1671058794099686812 0
 77/home/sergiop27/personalProyects/medinatural/dist/medinatural.59712999.js.map1670880091539536745 0
 68/home/sergiop27/personalProyects/medinatural/dist/index.d735ce98.css1671058794099686812 0
-49/home/sergiop27/personalProyects/medinatural/dist1672729171692670078 1
+49/home/sergiop27/personalProyects/medinatural/dist1672907811099204282 1
 57/home/sergiop27/personalProyects/medinatural/package.json1671059113249686645 0
-70/home/sergiop27/personalProyects/medinatural/src/products/servicios.js1670975665752953547 0
-57/home/sergiop27/personalProyects/medinatural/src/products1670975026232953881 1
-67/home/sergiop27/personalProyects/medinatural/src/components/nada.js1670888861344592142 0
+70/home/sergiop27/personalProyects/medinatural/src/products/servicios.js1672814679589675970 0
+71/home/sergiop27/personalProyects/medinatural/src/products/homeopatia.js1672814761739675599 0
+72/home/sergiop27/personalProyects/medinatural/src/products/herbalfruit.js1672904511039219215 0
+65/home/sergiop27/personalProyects/medinatural/src/products/sede.js1672815749759671128 0
+57/home/sergiop27/personalProyects/medinatural/src/products1672905281089215730 1
+67/home/sergiop27/personalProyects/medinatural/src/components/nada.js1672826036899624578 0
 67/home/sergiop27/personalProyects/medinatural/src/components/item.js1672718037647244763 0
 59/home/sergiop27/personalProyects/medinatural/src/components1670888861344592142 1
-70/home/sergiop27/personalProyects/medinatural/src/css/menu-selected.css1672718922687240758 0
+70/home/sergiop27/personalProyects/medinatural/src/css/menu-selected.css1672852938184910282 0
 61/home/sergiop27/personalProyects/medinatural/src/css/main.css1672718566427242371 0
-63/home/sergiop27/personalProyects/medinatural/src/css/index.scss1671035421151698361 0
-62/home/sergiop27/personalProyects/medinatural/src/css/index.css1670880019629536782 0
-52/home/sergiop27/personalProyects/medinatural/src/css1671035363471698391 1
+63/home/sergiop27/personalProyects/medinatural/src/css/index.scss1672906950559208176 0
+62/home/sergiop27/personalProyects/medinatural/src/css/index.css1672907074439207615 0
+52/home/sergiop27/personalProyects/medinatural/src/css1672906928359208276 1
 65/home/sergiop27/personalProyects/medinatural/src/utils/getHash.js1670888788784592180 0
 71/home/sergiop27/personalProyects/medinatural/src/utils/resolveRoutes.js1670972380631239600 0
-54/home/sergiop27/personalProyects/medinatural/src/utils1670888835974592155 1
+54/home/sergiop27/personalProyects/medinatural/src/utils1672825642199626364 1
 71/home/sergiop27/personalProyects/medinatural/src/assets/images/logo.png1670517683000000000 0
 62/home/sergiop27/personalProyects/medinatural/src/assets/images1672717116937248930 1
-64/home/sergiop27/personalProyects/medinatural/src/routes/index.js1670888863954592141 0
+64/home/sergiop27/personalProyects/medinatural/src/routes/index.js1672825877989625297 0
 79/home/sergiop27/personalProyects/medinatural/node_modules/resolve-from/index.js1670457771870998499 0
 78/home/sergiop27/personalProyects/medinatural/node_modules/resolve-from/license1670457771890998499 0
 84/home/sergiop27/personalProyects/medinatural/node_modules/nth-check/lib/compile.d.ts1670457772780998505 0
@@ -220,7 +223,7 @@
 107/home/sergiop27/personalProyects/medinatural/node_modules/caniuse-lite/data/features/css-descendant-gtgt.js1670457773980998512 0
 95/home/sergiop27/personalProyects/medinatural/node_modules/caniuse-lite/data/features/ac3-ec3.js1670457772200998501 0
 111/home/sergiop27/personalProyects/medinatural/node_modules/caniuse-lite/data/features/focusin-focusout-events.js1670457774490998516 0
-59/home/sergiop27/personalProyects/medinatural/src/index.html1672729034062670701 0
+59/home/sergiop27/personalProyects/medinatural/src/index.html1672907810539204284 0
 106/home/sergiop27/personalProyects/medinatural/node_modules/caniuse-lite/data/features/permissions-policy.js1670457774820998518 0
 97/home/sergiop27/personalProyects/medinatural/node_modules/caniuse-lite/data/features/xhtmlsmil.js1670457774980998519 0
 103/home/sergiop27/personalProyects/medinatural/node_modules/caniuse-lite/data/features/insert-adjacent.js1670457774570998516 0
@@ -677,7 +680,7 @@
 79/home/sergiop27/personalProyects/medinatural/node_modules/htmlnano/CHANGELOG.md1670457773760998511 0
 100/home/sergiop27/personalProyects/medinatural/node_modules/htmlnano/lib/modules/removeOptionalTags.js1670457773000998506 0
 92/home/sergiop27/personalProyects/medinatural/node_modules/htmlnano/lib/modules/minifyUrls.js1670457772890998506 0
-67/home/sergiop27/personalProyects/medinatural/dist/logo.08a29ce2.png1672729140152670221 0
+67/home/sergiop27/personalProyects/medinatural/dist/logo.08a29ce2.png1672907781769204414 0
 97/home/sergiop27/personalProyects/medinatural/node_modules/caniuse-lite/data/features/dom-range.js1670457774410998515 0
 91/home/sergiop27/personalProyects/medinatural/node_modules/htmlnano/lib/modules/minifySvg.js1670457772880998505 0
 105/home/sergiop27/personalProyects/medinatural/node_modules/htmlnano/lib/modules/sortAttributesWithLists.js1670457773080998507 0
@@ -1423,7 +1426,7 @@
 86/home/sergiop27/personalProyects/medinatural/node_modules/node-addon-api/noexcept.gypi1670457772020998500 0
 72/home/sergiop27/personalProyects/medinatural/node_modules/svgo/README.md1670457773810998511 0
 93/home/sergiop27/personalProyects/medinatural/node_modules/node-addon-api/package-support.json1670457772940998506 0
-68/home/sergiop27/personalProyects/medinatural/dist/index.39dfcbfd.css1672729140142670221 0
+68/home/sergiop27/personalProyects/medinatural/dist/index.39dfcbfd.css1672907781759204414 0
 97/home/sergiop27/personalProyects/medinatural/node_modules/caniuse-lite/data/features/webcodecs.js1670457774960998519 0
 85/home/sergiop27/personalProyects/medinatural/node_modules/node-addon-api/package.json1670457772970998506 0
 85/home/sergiop27/personalProyects/medinatural/node_modules/node-addon-api/node_api.gyp1670457771880998499 0
@@ -1523,6 +1526,7 @@
 104/home/sergiop27/personalProyects/medinatural/node_modules/svgo/plugins/removeNonInheritableGroupAttrs.js1670457773430998509 0
 95/home/sergiop27/personalProyects/medinatural/node_modules/@swc/helpers/lib/_class_call_check.js1670457772610998504 0
 79/home/sergiop27/personalProyects/medinatural/node_modules/@parcel/graph/LICENSE1671058944289686734 0
+68/home/sergiop27/personalProyects/medinatural/src/utils/removesede.js1672825642199626364 0
 104/home/sergiop27/personalProyects/medinatural/node_modules/@parcel/package-manager/src/JSONParseStream.js1671059110189686647 0
 102/home/sergiop27/personalProyects/medinatural/node_modules/@swc/helpers/lib/_assert_this_initialized.js1670457772150998501 0
 98/home/sergiop27/personalProyects/medinatural/node_modules/@swc/helpers/lib/_array_without_holes.js1670457772080998500 0
@@ -1799,7 +1803,7 @@
 87/home/sergiop27/personalProyects/medinatural/node_modules/has-tostringtag/test/tests.js1670969956341240869 0
 108/home/sergiop27/personalProyects/medinatural/node_modules/caniuse-lite/data/features/spellcheck-attribute.js1670457774880998518 0
 98/home/sergiop27/personalProyects/medinatural/node_modules/@parcel/transformer-js/native-browser.js1671058943399686734 0
-57/home/sergiop27/personalProyects/medinatural/src/index.js1672729171212670080 0
+57/home/sergiop27/personalProyects/medinatural/src/index.js1672904296649220185 0
 99/home/sergiop27/personalProyects/medinatural/node_modules/caniuse-lite/data/features/videotracks.js1670457774940998519 0
 99/home/sergiop27/personalProyects/medinatural/node_modules/caniuse-lite/data/features/input-range.js1670457774570998516 0
 87/home/sergiop27/personalProyects/medinatural/node_modules/has-tostringtag/test/index.js1670969956321240869 0
@@ -2615,7 +2619,7 @@
 77/home/sergiop27/personalProyects/medinatural/node_modules/type-fest/readme.md1670457772020998500 0
 75/home/sergiop27/personalProyects/medinatural/node_modules/yaml/package.json1670457773420998509 0
 84/home/sergiop27/personalProyects/medinatural/node_modules/@parcel/core/lib/Parcel.js1671058944399686734 0
-71/home/sergiop27/personalProyects/medinatural/dist/index.975ef6c8.js.map1672729171672670078 0
+71/home/sergiop27/personalProyects/medinatural/dist/index.975ef6c8.js.map1672907781769204414 0
 96/home/sergiop27/personalProyects/medinatural/node_modules/@parcel/core/test/fixtures/module-a.js1671058944389686734 0
 105/home/sergiop27/personalProyects/medinatural/node_modules/csso/lib/restructure/prepare/processSelector.js1670457773390998509 0
 95/home/sergiop27/personalProyects/medinatural/node_modules/css-tree/lib/syntax/pseudo/slotted.js1670457774030998513 0
@@ -2678,7 +2682,7 @@
 132/home/sergiop27/personalProyects/medinatural/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/aliased-file/index.js1671058944659686734 0
 88/home/sergiop27/personalProyects/medinatural/node_modules/@swc/helpers/src/_to_array.mjs1670457773940998512 0
 96/home/sergiop27/personalProyects/medinatural/node_modules/css-tree/lib/syntax/node/Percentage.js1670457773990998513 0
-67/home/sergiop27/personalProyects/medinatural/dist/index.975ef6c8.js1672729171662670078 0
+67/home/sergiop27/personalProyects/medinatural/dist/index.975ef6c8.js1672907781759204414 0
 102/home/sergiop27/personalProyects/medinatural/node_modules/caniuse-lite/data/features/css-line-clamp.js1670457774090998513 0
 104/home/sergiop27/personalProyects/medinatural/node_modules/@parcel/node-resolver-core/src/NodeResolver.js1671058944829686733 0
 103/home/sergiop27/personalProyects/medinatural/node_modules/caniuse-lite/data/features/payment-request.js1670457774810998518 0
@@ -3004,6 +3008,7 @@
 121/home/sergiop27/personalProyects/medinatural/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/@scope/pkg1671058944959686733 1
 108/home/sergiop27/personalProyects/medinatural/node_modules/@parcel/core/test/fixtures/custom-format-infer-ext1671058944949686733 1
 68/home/sergiop27/personalProyects/medinatural/node_modules/json5/dist1670457772850998505 1
+66/home/sergiop27/personalProyects/medinatural/src/utils/viewsede.js1672823287999637017 0
 75/home/sergiop27/personalProyects/medinatural/node_modules/sass/types/logger1670457774440998515 1
 83/home/sergiop27/personalProyects/medinatural/node_modules/csso/lib/replace/property1670457773290998508 1
 94/home/sergiop27/personalProyects/medinatural/node_modules/msgpackr/dist/unpack-no-eval.cjs.map1670457773660998510 0
@@ -3013,7 +3018,7 @@
 97/home/sergiop27/personalProyects/medinatural/node_modules/@parcel/packager-svg/lib/SVGPackager.js1671058943209686734 0
 89/home/sergiop27/personalProyects/medinatural/node_modules/caniuse-lite/data/regions/KN.js1670457774600998516 0
 103/home/sergiop27/personalProyects/medinatural/node_modules/@babel/highlight/node_modules/chalk/readme.md1670457772120998501 0
-68/home/sergiop27/personalProyects/medinatural/src/utils/getProduct.js1672718941437240674 0
+68/home/sergiop27/personalProyects/medinatural/src/utils/getProduct.js1672904359679219900 0
 82/home/sergiop27/personalProyects/medinatural/node_modules/htmlparser2/package.json1670457772360998502 0
 70/home/sergiop27/personalProyects/medinatural/node_modules/csso/LICENSE1670457771810998499 0
 91/home/sergiop27/personalProyects/medinatural/node_modules/@parcel/packager-css/package.json1671058943859686734 0
@@ -3218,7 +3223,7 @@
 79/home/sergiop27/personalProyects/medinatural/node_modules/glob-parent/README.md1670457772010998500 0
 78/home/sergiop27/personalProyects/medinatural/node_modules/lmdb/src/lmdb-js.cpp1670457773950998512 0
 87/home/sergiop27/personalProyects/medinatural/node_modules/@swc/helpers/lib/_to_array.js1670457773390998509 0
-72/home/sergiop27/personalProyects/medinatural/dist/index.39dfcbfd.css.map1672729140172670221 0
+72/home/sergiop27/personalProyects/medinatural/dist/index.39dfcbfd.css.map1672907781769204414 0
 78/home/sergiop27/personalProyects/medinatural/node_modules/has-tostringtag/test1670969956321240869 1
 82/home/sergiop27/personalProyects/medinatural/node_modules/htmlparser2/lib/index.js1670457771920998499 0
 80/home/sergiop27/personalProyects/medinatural/node_modules/supports-color/license1670457771820998499 0
@@ -3870,6 +3875,7 @@
 67/home/sergiop27/personalProyects/medinatural/node_modules/picomatch1670457772490998503 1
 90/home/sergiop27/personalProyects/medinatural/node_modules/@parcel/utils/src/relativeUrl.js1671059110239686647 0
 97/home/sergiop27/personalProyects/medinatural/node_modules/@parcel/utils/src/relativeBundlePath.js1671059110239686647 0
+63/home/sergiop27/personalProyects/medinatural/src/css/foter.scss1672907264379206756 0
 89/home/sergiop27/personalProyects/medinatural/node_modules/caniuse-lite/data/regions/GB.js1670457774500998516 0
 102/home/sergiop27/personalProyects/medinatural/node_modules/@parcel/utils/src/replaceBundleReferences.js1671059110239686647 0
 115/home/sergiop27/personalProyects/medinatural/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/mtest2.c1670457773770998511 0

@@ -1,6 +1,7 @@
 const services = [
     {
         name:"BIOMAGNETISMO MEDICO",
+        photo:"https://i.postimg.cc/9M8PjSzh/Captura-de-pantalla-2023-01-04-012335.png",
         description:`Qué es y para qué sirve el biomagnetismo?
         El biomagnetismo médico es una práctica médica alternativa integral en la que se usa el
         conocimiento del cuerpo humano y sus campos magnéticos para el tratamiento de todo
@@ -8,7 +9,8 @@ const services = [
         las enfermedades o malestares.`
     },
     {
-        name:"Valoración emocional y física con bioplasm",
+        name:"Valoración emocional y física con bioplasma",
+        photo:"https://i.postimg.cc/MKj7h9SC/Captura-de-pantalla-2023-01-04-012403.png",
         description:`Sistema de diagnóstico terapéutico medicinal, que estudia, detecta, clasifica y corrige las
         alteraciones del pH mediante el uso del Par Biomagnético”. El par Biomagnético
         corresponde a zonas del cuerpo que están hermanados y con polaridades distintas (carga
@@ -35,6 +37,7 @@ const services = [
     },
     {
         name:"Valoración con scanner Biocuántico",
+        photo:"https://i.postimg.cc/yx2FDZFp/Captura-de-pantalla-2023-01-04-012600.png",
         description:`El sistema cuántico Bioeléctrico tiene una exactitud cercana al 90%. Los valores
         obtenidos se extrapolan basados en los parámetros leídos en el paciente y en conjunción
         con los datos como peso, talla, edad, y sexo. . Sin embargo al poder medir los campos
@@ -47,7 +50,45 @@ const services = [
     },
     {
         name:"DESINTOXICACION IONICA.",
+        photo:"https://i.postimg.cc/bwxQvddL/Captura-de-pantalla-2023-01-04-012630.png",
         description:``
     },
+    {
+        name:"Metabolismo medico",
+        photo:"https://i.postimg.cc/sgdYy5fv/Captura-de-pantalla-2023-01-04-012658.png",
+        description:`MEDINATURAL.VID les ofrece la mejor opción en nutrición, empleando la herbolaria y la
+        jugoterapia como una herramienta muy importante en la prevención y tratamiento de
+        enfermedades como; La obesidad: (enfermedades cardiovasculares, cerebrovasculares,
+        hipertensión arterial, venas varices, hemorroides) etc. causas: daño hepato-biliar, hepato-
+        pancreatico y hepatorrenal, entre muchas otras; como el mal metabolismo de grasas,
+        enzimas y/o de la glándula tiroides etc.`
+    },
+    {
+        name:"Medicina herbal",
+        photo:"https://i.postimg.cc/8kYdKqqd/Captura-de-pantalla-2023-01-04-012722.png",
+        description:`La nutrición es principalmente el aprovechamiento de los nutrientes, manteniendo el
+        equilibrio homeostático del organismo a nivel molecular y macro-sistémico.
+        Los procesos macro sistémicos están relacionados a la absorción, digestión, metabolismo
+        y eliminación. Los procesos moleculares o micro sistémicos están relacionados al
+        equilibrio de elementos como enzimas, vitaminas, minerales, aminoácidos, glucosa,
+        transportadores químicos, mediadores bioquímicos, hormonas, etc.
+        Baja productividad, absentismo, cansancio, sobrepeso, son sólo algunos de los
+        problemas derivados por la mala alimentación por causa de no contar con el tiempo
+        suficiente o simplemente por hacer una mala elección en su dieta diaria.
+        
+        La herbolaria se asocia a la fitoterapia; el uso de plantas para prevenir, aliviar o curar
+        enfermedades y otros trastornos de la salud, Se trata de una terapia natural que recurre a
+        las plantas, el uso de productos de origen vegetal para la prevención, la curación o el
+        alivio de una amplia variedad de síntomas y enfermedades.
+        La fitoterapia ha resultado ser más útil que la medicina moderna para el tratamiento de
+        ciertas enfermedades crónicas, con menos efecto secundario y más económico.
+        Las plantas medicinales y aromáticas juegan un papel importante en el cuidado de la
+        salud de las personas
+        Cuando realizamos jugoterapia, los órganos encargados de la desintoxicación, como la
+        piel, los pulmones, los riñones y el hígado trabajan mucho más rápido, permitiendo que
+        los deshechos y las toxinas acumuladas sean eliminadas sin ningún problema. Esta es
+        una buena manera de permitir que el sistema digestivo tenga un buen descanso.
+        `
+    }
 ]
 module.exports = services

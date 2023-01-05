@@ -535,12 +535,15 @@ function hmrAcceptRun(bundle, id) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _index = require("./routes/index");
 var _indexDefault = parcelHelpers.interopDefault(_index);
+var _viewsede = require("./utils/viewsede");
+var _viewsedeDefault = parcelHelpers.interopDefault(_viewsede);
 window.addEventListener("load", (0, _indexDefault.default));
 let button1 = document.getElementById("menu-selected1");
 let button2 = document.getElementById("menu-selected2");
 let button3 = document.getElementById("menu-selected3");
 let button4 = document.getElementById("menu-selected4");
 let button5 = document.getElementById("menu-selected5");
+let button6 = document.getElementById("menu-selected6");
 button1.addEventListener("click", async ()=>{
     await elegir("1");
     await (0, _indexDefault.default)();
@@ -563,6 +566,11 @@ button4.addEventListener("click", async ()=>{
 });
 button5.addEventListener("click", async ()=>{
     await elegir("5");
+    await (0, _viewsedeDefault.default)();
+    await scroll();
+});
+button6.addEventListener("click", async ()=>{
+    await elegir("6");
     await (0, _indexDefault.default)();
     await scroll();
 });
@@ -574,14 +582,14 @@ function elegir(a) {
     newURL.click();
 }
 function scroll() {
-    let targetURL = "#menu-selected";
+    let targetURL = "#main-conatiner";
     let newURL = document.createElement("a");
     newURL.href = targetURL;
     document.body.appendChild(newURL);
     newURL.click();
 }
 
-},{"./routes/index":"3L9mC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3L9mC":[function(require,module,exports) {
+},{"./routes/index":"3L9mC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./utils/viewsede":"jC5Ub"}],"3L9mC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getHashJs = require("../utils/getHash.js");
@@ -597,13 +605,15 @@ const routes = {
     "/:id": (0, _getProductDefault.default)
 };
 const router = async ()=>{
-    const content = document.getElementById("menu-selected");
     let hash = (0, _getHashJsDefault.default)();
     let route = await (0, _resolveRoutesDefault.default)(hash);
     let render = routes[route] ? routes[route] : (0, _nadaDefault.default);
+    const content = document.getElementById("main-container");
     content.parentNode;
     content.removeChild(content.firstChild || null);
     content.innerHTML = await render();
+    const removesede = document.getElementById("menu-selected");
+    removesede.innerHTML = (0, _nadaDefault.default);
 };
 exports.default = router;
 
@@ -660,18 +670,24 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _productos = require("../products/productos");
 var _productosDefault = parcelHelpers.interopDefault(_productos);
+var _sede = require("../products/sede");
+var _sedeDefault = parcelHelpers.interopDefault(_sede);
 var _servicios = require("../products/servicios");
 var _serviciosDefault = parcelHelpers.interopDefault(_servicios);
+var _homeopatia = require("../products/homeopatia");
+var _homeopatiaDefault = parcelHelpers.interopDefault(_homeopatia);
 var _item = require("../components/item");
 var _itemDefault = parcelHelpers.interopDefault(_item);
 var _getHash = require("../utils/getHash");
 var _getHashDefault = parcelHelpers.interopDefault(_getHash);
+var _herbalfruit = require("../products/herbalfruit");
+var _herbalfruitDefault = parcelHelpers.interopDefault(_herbalfruit);
 let title = "";
 const data = ()=>{
     let hash = (0, _getHashDefault.default)();
     if (hash == "menu-selected1") {
-        title = "Inicio";
-        return 0;
+        title = "Homeopat\xeda";
+        return 0, _homeopatiaDefault.default;
     } else if (hash == "menu-selected2") {
         title = "Servicios";
         return 0, _serviciosDefault.default;
@@ -683,7 +699,10 @@ const data = ()=>{
         return 0;
     } else if (hash == "menu-selected5") {
         title = "Fotos sede";
-        return 0;
+        return 0, _sedeDefault.default;
+    } else if (hash == "menu-selected6") {
+        title = "HerbalFruit";
+        return 0, _herbalfruitDefault.default;
     }
 };
 const menu = async ()=>{
@@ -702,7 +721,7 @@ const menu = async ()=>{
 };
 exports.default = menu;
 
-},{"../products/productos":"ceCzh","../products/servicios":"lye8P","../components/item":"klNFr","../utils/getHash":"cBXxo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ceCzh":[function(require,module,exports) {
+},{"../products/productos":"ceCzh","../products/servicios":"lye8P","../components/item":"klNFr","../utils/getHash":"cBXxo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../products/sede":"jfqGO","../products/homeopatia":"ijUHX","../products/herbalfruit":"fpzWO"}],"ceCzh":[function(require,module,exports) {
 const products = [
     {
         name: "TRATAMIENTO FITOTERAPEUTICO PANCREAS:",
@@ -1098,6 +1117,7 @@ module.exports = products;
 const services = [
     {
         name: "BIOMAGNETISMO MEDICO",
+        photo: "https://i.postimg.cc/9M8PjSzh/Captura-de-pantalla-2023-01-04-012335.png",
         description: `Qué es y para qué sirve el biomagnetismo?
         El biomagnetismo médico es una práctica médica alternativa integral en la que se usa el
         conocimiento del cuerpo humano y sus campos magnéticos para el tratamiento de todo
@@ -1105,7 +1125,8 @@ const services = [
         las enfermedades o malestares.`
     },
     {
-        name: "Valoraci\xf3n emocional y f\xedsica con bioplasm",
+        name: "Valoraci\xf3n emocional y f\xedsica con bioplasma",
+        photo: "https://i.postimg.cc/MKj7h9SC/Captura-de-pantalla-2023-01-04-012403.png",
         description: `Sistema de diagnóstico terapéutico medicinal, que estudia, detecta, clasifica y corrige las
         alteraciones del pH mediante el uso del Par Biomagnético”. El par Biomagnético
         corresponde a zonas del cuerpo que están hermanados y con polaridades distintas (carga
@@ -1132,6 +1153,7 @@ const services = [
     },
     {
         name: "Valoraci\xf3n con scanner Biocu\xe1ntico",
+        photo: "https://i.postimg.cc/yx2FDZFp/Captura-de-pantalla-2023-01-04-012600.png",
         description: `El sistema cuántico Bioeléctrico tiene una exactitud cercana al 90%. Los valores
         obtenidos se extrapolan basados en los parámetros leídos en el paciente y en conjunción
         con los datos como peso, talla, edad, y sexo. . Sin embargo al poder medir los campos
@@ -1144,7 +1166,45 @@ const services = [
     },
     {
         name: "DESINTOXICACION IONICA.",
+        photo: "https://i.postimg.cc/bwxQvddL/Captura-de-pantalla-2023-01-04-012630.png",
         description: ``
+    },
+    {
+        name: "Metabolismo medico",
+        photo: "https://i.postimg.cc/sgdYy5fv/Captura-de-pantalla-2023-01-04-012658.png",
+        description: `MEDINATURAL.VID les ofrece la mejor opción en nutrición, empleando la herbolaria y la
+        jugoterapia como una herramienta muy importante en la prevención y tratamiento de
+        enfermedades como; La obesidad: (enfermedades cardiovasculares, cerebrovasculares,
+        hipertensión arterial, venas varices, hemorroides) etc. causas: daño hepato-biliar, hepato-
+        pancreatico y hepatorrenal, entre muchas otras; como el mal metabolismo de grasas,
+        enzimas y/o de la glándula tiroides etc.`
+    },
+    {
+        name: "Medicina herbal",
+        photo: "https://i.postimg.cc/8kYdKqqd/Captura-de-pantalla-2023-01-04-012722.png",
+        description: `La nutrición es principalmente el aprovechamiento de los nutrientes, manteniendo el
+        equilibrio homeostático del organismo a nivel molecular y macro-sistémico.
+        Los procesos macro sistémicos están relacionados a la absorción, digestión, metabolismo
+        y eliminación. Los procesos moleculares o micro sistémicos están relacionados al
+        equilibrio de elementos como enzimas, vitaminas, minerales, aminoácidos, glucosa,
+        transportadores químicos, mediadores bioquímicos, hormonas, etc.
+        Baja productividad, absentismo, cansancio, sobrepeso, son sólo algunos de los
+        problemas derivados por la mala alimentación por causa de no contar con el tiempo
+        suficiente o simplemente por hacer una mala elección en su dieta diaria.
+        
+        La herbolaria se asocia a la fitoterapia; el uso de plantas para prevenir, aliviar o curar
+        enfermedades y otros trastornos de la salud, Se trata de una terapia natural que recurre a
+        las plantas, el uso de productos de origen vegetal para la prevención, la curación o el
+        alivio de una amplia variedad de síntomas y enfermedades.
+        La fitoterapia ha resultado ser más útil que la medicina moderna para el tratamiento de
+        ciertas enfermedades crónicas, con menos efecto secundario y más económico.
+        Las plantas medicinales y aromáticas juegan un papel importante en el cuidado de la
+        salud de las personas
+        Cuando realizamos jugoterapia, los órganos encargados de la desintoxicación, como la
+        piel, los pulmones, los riñones y el hígado trabajan mucho más rápido, permitiendo que
+        los deshechos y las toxinas acumuladas sean eliminadas sin ningún problema. Esta es
+        una buena manera de permitir que el sistema digestivo tenga un buen descanso.
+        `
     }
 ];
 module.exports = services;
@@ -1161,14 +1221,113 @@ const returnItem = (data)=>{
 };
 exports.default = returnItem;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5Pv0i":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jfqGO":[function(require,module,exports) {
+const sede = [
+    {
+        name: "",
+        photo: "https://i.postimg.cc/VktBxDjS/Captura-de-pantalla-2023-01-04-014726.png",
+        description: ``
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/RFS7nm2f/Captura-de-pantalla-2023-01-04-014800.png",
+        description: ``
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/cJNM0wmF/Captura-de-pantalla-2023-01-04-014818.png",
+        description: ``
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/1tvpGTZd/Captura-de-pantalla-2023-01-04-014832.png",
+        description: ``
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/PqzbxJVT/Captura-de-pantalla-2023-01-04-014846.png",
+        description: ``
+    }
+];
+module.exports = sede;
+
+},{}],"ijUHX":[function(require,module,exports) {
+const homeopatia = [
+    {
+        name: "Globulos frasco x10gr",
+        photo: "https://i.postimg.cc/8P01rbfz/Captura-de-pantalla-2023-01-04-011531.png",
+        description: ``
+    },
+    {
+        name: "Triturados frasco x60gr",
+        photo: "https://i.postimg.cc/25pr08wp/Captura-de-pantalla-2023-01-04-011550.png",
+        description: ``
+    },
+    {
+        name: "Ampollas bebibles caja por 12 unidades",
+        photo: "https://i.postimg.cc/sXsyR6qw/Captura-de-pantalla-2023-01-04-011611.png",
+        description: ``
+    },
+    {
+        name: "Jarabes frasco x 240 ml",
+        photo: "https://i.postimg.cc/QdKjgWck/Captura-de-pantalla-2023-01-04-011626.png",
+        description: ``
+    },
+    {
+        name: "Gotas Frasco x 30 ml",
+        photo: "https://i.postimg.cc/bvQ8WcCZ/Captura-de-pantalla-2023-01-04-011647.png",
+        description: ``
+    }
+];
+module.exports = homeopatia;
+
+},{}],"fpzWO":[function(require,module,exports) {
+const herbalfruit = [
+    {
+        name: "",
+        description: "",
+        photo: "https://i.postimg.cc/vHN6d8x2/Captura-de-pantalla-2023-01-05-024043.png"
+    },
+    {
+        name: "",
+        description: "",
+        photo: "https://i.postimg.cc/5t9gkNh7/Captura-de-pantalla-2023-01-05-023302.png"
+    }
+];
+module.exports = herbalfruit;
+
+},{}],"5Pv0i":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-const nada = ()=>{
-    return `<div></div>`;
-};
+const nada = ``;
 exports.default = nada;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["ShInH","8lqZg"], "8lqZg", "parcelRequire20ce")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jC5Ub":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _getHashJs = require("../utils/getHash.js");
+var _getHashJsDefault = parcelHelpers.interopDefault(_getHashJs);
+var _resolveRoutes = require("../utils/resolveRoutes");
+var _resolveRoutesDefault = parcelHelpers.interopDefault(_resolveRoutes);
+var _getProduct = require("../utils/getProduct");
+var _getProductDefault = parcelHelpers.interopDefault(_getProduct);
+var _nada = require("../components/nada");
+var _nadaDefault = parcelHelpers.interopDefault(_nada);
+const routes = {
+    "#specialty": (0, _nadaDefault.default),
+    "/:id": (0, _getProductDefault.default)
+};
+const viewsede = async ()=>{
+    let hash = (0, _getHashJsDefault.default)();
+    let route = await (0, _resolveRoutesDefault.default)(hash);
+    let render = routes[route] ? routes[route] : (0, _nadaDefault.default);
+    const content = document.getElementById("menu-selected");
+    content.parentNode;
+    content.removeChild(content.firstChild || null);
+    content.innerHTML = await render();
+};
+exports.default = viewsede;
+
+},{"../utils/getHash.js":"cBXxo","../utils/resolveRoutes":"45qF6","../utils/getProduct":"leJS3","../components/nada":"5Pv0i","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["ShInH","8lqZg"], "8lqZg", "parcelRequire20ce")
 
 //# sourceMappingURL=index.975ef6c8.js.map

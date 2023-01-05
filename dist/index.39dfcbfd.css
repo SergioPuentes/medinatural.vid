@@ -123,12 +123,15 @@ section p {
   padding: 1.2rem;
 }
 
-#menu-selected {
-  max-width: 100rem;
-  width: 96%;
+.menu-selected {
   background-color: #f0f8ff;
   border: 1px solid #9b9a9a;
   border-radius: 2rem;
+}
+
+#menu-selected {
+  max-width: 100rem;
+  width: 96%;
   margin: 0 auto;
   display: flex;
 }
@@ -143,7 +146,7 @@ section p {
 
 .item-info img {
   width: 100%;
-  max-width: 20rem;
+  max-width: 40rem;
   margin: 4rem auto 0;
 }
 
@@ -174,6 +177,73 @@ section p {
   font-size: 2.7rem;
 }
 
+.footer {
+  color: #fff;
+  background-color: #333;
+  padding: 4.8rem 0;
+}
 
+@media (max-width: 37.5em) {
+  .footer {
+    border: 0;
+  }
+}
+
+.footer__text {
+  color: gray;
+  font-size: 1.3rem;
+}
+
+.footer__text a {
+  color: gray;
+  background-color: #333;
+  font-size: 1.3rem;
+  transition: all .4s;
+  display: inline-block;
+}
+
+.footer__text a:hover, .footer__text a:active {
+  color: #50203c;
+  box-shadow: 0 1.5rem 4rem #00000026;
+}
+
+.footer hr {
+  width: 50%;
+  border: 0;
+  border-top: 2px solid gray;
+  margin: 1rem auto;
+}
+
+.social-links {
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
+
+.social-links a {
+  color: #fff;
+  width: 5rem;
+  height: 5rem;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1.6rem;
+  font-size: 3rem;
+  transition: all .2s ease-in;
+  display: flex;
+}
+
+.social-links a:hover {
+  transform: translateY(-2px);
+}
+
+.back-to-top i {
+  color: #fff;
+  margin: 1rem 0 1.6rem;
+  transition: all .2s ease-in;
+}
+
+.back-to-top i:hover {
+  transform: translateY(-2px);
+}
 
 /*# sourceMappingURL=index.39dfcbfd.css.map */

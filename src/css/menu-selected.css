@@ -1,10 +1,12 @@
-#menu-selected{
-    max-width: 100rem;
-    width: 96%;
-    margin: 0 auto;
+.menu-selected{
+    border: solid 1px rgb(155, 154, 154);
     background-color: aliceblue;
     border-radius: 2rem;
-    border: solid 1px rgb(155, 154, 154);
+}
+#menu-selected{
+    max-width: 100rem;
+    margin: 0 auto;
+    width: 96%;
     display: flex;
 }
 .item-info{
@@ -17,7 +19,7 @@
 .item-info img{
     width: 100%;
     margin: 4rem auto 0 auto;
-    max-width: 20rem;
+    max-width: 40rem;
 }
 .item-info h3{
     font-size: 1.6rem;

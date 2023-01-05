@@ -1,4 +1,3 @@
-const nada = ()=> {
-    return `<div></div>`
-}
+const nada = ``
+
 export default nada

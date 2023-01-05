@@ -1,13 +1,16 @@
 import products from "../products/productos"
+import sede from "../products/sede"
 import services from '../products/servicios'
+import homeopatia from "../products/homeopatia"
 import returnItem from "../components/item"
 import getHash from "../utils/getHash"
+import herbalfruit from "../products/herbalfruit"
 let title = ""
 const data = ()=>{
     let hash = getHash()
     if(hash == "menu-selected1"){
-        title = "Inicio"
-        return 0
+        title = "Homeopatía"
+        return homeopatia
     }else if(hash == "menu-selected2"){
         title = "Servicios"
         return services
@@ -19,7 +22,11 @@ const data = ()=>{
         return 0
     }else if(hash == "menu-selected5"){
         title = "Fotos sede"
-        return 0
+        return sede
+    }
+    else if(hash == "menu-selected6"){
+        title = "HerbalFruit"
+        return herbalfruit
     }
 }
 const menu = async ()=>{

@@ -1,5 +1,5 @@
 import router from "./routes/index"
-
+import viewsede from "./utils/viewsede"
 
 window.addEventListener("load", router)
 
@@ -8,6 +8,7 @@ let button2 = document.getElementById("menu-selected2")
 let button3 = document.getElementById("menu-selected3")
 let button4 = document.getElementById("menu-selected4")
 let button5 = document.getElementById("menu-selected5")
+let button6 = document.getElementById("menu-selected6")
 
 button1.addEventListener("click", async()=>{
     await elegir("1")
@@ -31,14 +32,14 @@ button4.addEventListener("click", async()=>{
 })
 button5.addEventListener("click", async()=>{
     await elegir("5")
+    await viewsede()
+    await scroll()
+})
+button6.addEventListener("click", async()=>{
+    await elegir("6")
     await router()
     await scroll()
 })
-
-
-
-
-
 function elegir(a){
     let targetURL = '#menu-selected' + a;
     let newURL = document.createElement('a');
@@ -47,7 +48,7 @@ function elegir(a){
     newURL.click();
 }
 function scroll(){
-    let targetURL = '#menu-selected' ;
+    let targetURL = '#main-conatiner' ;
     let newURL = document.createElement('a');
     newURL.href = targetURL;
     document.body.appendChild(newURL);
