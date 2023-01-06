@@ -10,7 +10,6 @@ header{
 .barra{
     max-width: 100%;
     padding: 0 1rem;
-    justify-content: space-between;
 }
 .icon{
     display: flex;
@@ -30,9 +29,12 @@ nav{
     align-items: center;
     min-height: 9rem;
     margin-right: 2rem;
+    max-width: 60%;
 }
 nav ul{
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 ul button {
     transition: .3s linear;

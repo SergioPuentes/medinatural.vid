@@ -12,7 +12,10 @@ html {
 }
 
 body {
+  min-height: 100%;
   background-color: #e1e7ec;
+  flex-direction: column;
+  display: flex;
 }
 
 header {
@@ -26,7 +29,6 @@ header {
 
 .barra {
   max-width: 100%;
-  justify-content: space-between;
   padding: 0 1rem;
 }
 
@@ -48,13 +50,16 @@ header {
 nav {
   float: right;
   min-height: 9rem;
+  max-width: 60%;
   align-items: center;
   margin-right: 2rem;
   display: flex;
 }
 
 nav ul {
+  justify-content: space-between;
   list-style: none;
+  display: flex;
 }
 
 ul button {
@@ -178,72 +183,13 @@ section p {
 }
 
 .footer {
-  color: #fff;
-  background-color: #333;
-  padding: 4.8rem 0;
-}
-
-@media (max-width: 37.5em) {
-  .footer {
-    border: 0;
-  }
-}
-
-.footer__text {
-  color: gray;
-  font-size: 1.3rem;
-}
-
-.footer__text a {
-  color: gray;
-  background-color: #333;
-  font-size: 1.3rem;
-  transition: all .4s;
-  display: inline-block;
-}
-
-.footer__text a:hover, .footer__text a:active {
-  color: #50203c;
-  box-shadow: 0 1.5rem 4rem #00000026;
-}
-
-.footer hr {
-  width: 50%;
-  border: 0;
-  border-top: 2px solid gray;
-  margin: 1rem auto;
-}
-
-.social-links {
-  flex-direction: row;
-  justify-content: center;
+  width: 70%;
+  height: 12rem;
+  background-color: bisque;
+  margin: 1rem auto 0;
   display: flex;
 }
 
-.social-links a {
-  color: #fff;
-  width: 5rem;
-  height: 5rem;
-  flex-direction: column;
-  justify-content: center;
-  margin: 1.6rem;
-  font-size: 3rem;
-  transition: all .2s ease-in;
-  display: flex;
-}
 
-.social-links a:hover {
-  transform: translateY(-2px);
-}
-
-.back-to-top i {
-  color: #fff;
-  margin: 1rem 0 1.6rem;
-  transition: all .2s ease-in;
-}
-
-.back-to-top i:hover {
-  transform: translateY(-2px);
-}
 
 /*# sourceMappingURL=index.39dfcbfd.css.map */
