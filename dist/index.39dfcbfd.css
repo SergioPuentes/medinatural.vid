@@ -23,7 +23,6 @@ header {
   width: 96%;
   height: 9rem;
   background-color: #b0dfcd;
-  border: 1px solid #acacb8;
   border-radius: 2rem;
   margin: 1rem auto 0;
 }
@@ -94,7 +93,6 @@ main {
   width: 96%;
   text-align: center;
   background-color: #b0dfcd;
-  border: 1px solid #acacb8;
   border-radius: 2rem;
   margin: 8rem auto;
 }
@@ -115,16 +113,17 @@ section p {
 }
 
 .view-sedes {
-  background-color: #e1e7ec;
+  color: #fff;
+  background-color: #00c18a;
   border: 1px solid #acacb8;
   border-radius: 1rem;
+  margin-bottom: 4rem;
   padding: 1.2rem;
 }
 
 .menu-selected {
   width: 95%;
   background-color: #b0dfcd;
-  border: 1px solid #b00000;
   border-radius: 2rem;
   margin: 0 auto;
 }

@@ -1,7 +1,8 @@
 .view-sedes{
-    background-color:rgb(225, 231, 236) ;
+    background-color:#00C18A ;
     padding: 1.2rem;
     border: 1px solid #acacb8;
     border-radius: 1rem;
-
+    color: #ffffff;
+    margin-bottom: 4rem;
 }
