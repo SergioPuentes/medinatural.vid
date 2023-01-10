@@ -682,6 +682,8 @@ var _getHash = require("../utils/getHash");
 var _getHashDefault = parcelHelpers.interopDefault(_getHash);
 var _herbalfruit = require("../products/herbalfruit");
 var _herbalfruitDefault = parcelHelpers.interopDefault(_herbalfruit);
+var _contacto = require("../products/contacto");
+var _contactoDefault = parcelHelpers.interopDefault(_contacto);
 let title = "";
 const data = ()=>{
     let hash = (0, _getHashDefault.default)();
@@ -696,7 +698,7 @@ const data = ()=>{
         return 0, _productosDefault.default;
     } else if (hash == "menu-selected4") {
         title = "Contactenos";
-        return 0;
+        return 0, _contactoDefault.default;
     } else if (hash == "menu-selected5") {
         title = "Fotos sede";
         return 0, _sedeDefault.default;
@@ -721,7 +723,7 @@ const menu = async ()=>{
 };
 exports.default = menu;
 
-},{"../products/productos":"ceCzh","../products/servicios":"lye8P","../components/item":"klNFr","../utils/getHash":"cBXxo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../products/sede":"jfqGO","../products/homeopatia":"ijUHX","../products/herbalfruit":"fpzWO"}],"ceCzh":[function(require,module,exports) {
+},{"../products/productos":"ceCzh","../products/servicios":"lye8P","../components/item":"klNFr","../utils/getHash":"cBXxo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../products/sede":"jfqGO","../products/homeopatia":"ijUHX","../products/herbalfruit":"fpzWO","../products/contacto":"d6ZcD"}],"ceCzh":[function(require,module,exports) {
 const products = [
     {
         name: "TRATAMIENTO FITOTERAPEUTICO PANCREAS:",
@@ -1295,6 +1297,31 @@ const herbalfruit = [
     }
 ];
 module.exports = herbalfruit;
+
+},{}],"d6ZcD":[function(require,module,exports) {
+const contacto = [
+    {
+        name: "Whatsapp",
+        description: "Escribenos por Whatsapp",
+        photo: "https://cdn-icons-png.flaticon.com/128/733/733641.png"
+    },
+    {
+        name: "Estamos ubicados en San Gil-Santander",
+        description: "Cra 9 #9-35 Frente a la fiscalia municipal",
+        photo: "https://cdn-icons-png.flaticon.com/512/2354/2354133.png"
+    },
+    {
+        name: "Facebook",
+        description: "Escribenos por Facebook",
+        photo: "https://cdn-icons-png.flaticon.com/128/1384/1384005.png"
+    },
+    {
+        name: "Telefono",
+        description: "LLamanos 3132381049",
+        photo: "https://cdn-icons-png.flaticon.com/512/2354/2354127.png"
+    }
+];
+module.exports = contacto;
 
 },{}],"5Pv0i":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");

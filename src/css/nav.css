@@ -1,7 +1,7 @@
 header{
     width: 96%;
     height: 9rem;
-    background-color: antiquewhite;   
+    background-color: #B0DFCD;   
     margin: 0 auto;
     border-radius: 2rem;
     border: 1px solid #acacb8;
@@ -40,20 +40,15 @@ ul button {
     transition: .3s linear;
     display: inline-block;
     margin: 0 1rem;
-    color: #ff495c;
-    font-size: 2rem;
-    font-weight: 600;
-    font-family:'Segoe UI';
-    border: #fd6070 1px solid;
+    font-size: 2.2rem;
+    font-family:'Roboto';
     padding: 0.4rem;
-    border-radius: 1rem;
-    background-color: antiquewhite;
+    background-color: #B0DFCD;
+    border: none;
 }
 ul button li{
-    color:#ff495c
-}
-ul a li{
-    color: #ff495c;
+    font-weight: 800;
+    color:#ffffff
 }
 ul a{
     transition: .3s linear;
@@ -62,7 +57,5 @@ ul a{
     font-size: 2rem;
     font-weight: 600;
     font-family:'Segoe UI';
-    border: #fd6070 1px solid;
     padding: 0.4rem;
-    border-radius: 1rem;
 }

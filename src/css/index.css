@@ -2,16 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'ROBOTO', sans-serif;
     text-decoration: none;
-    color: black;
+    color: #003C4D;
+    font-weight: 600;
 }
 html{
     font-size: 62.5%;
 }
 body{
-    background-color:rgb(225, 231, 236) ;
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }

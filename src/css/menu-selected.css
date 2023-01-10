@@ -1,12 +1,11 @@
 .menu-selected{
-    border: solid 1px rgb(155, 154, 154);
-    background-color: aliceblue;
+    border: solid 1px rgb(176, 0, 0);
+    background-color:#B0DFCD;
     border-radius: 2rem;
+    width: 95%;
+    margin: 0 auto;
 }
 #menu-selected{
-    max-width: 100rem;
-    margin: 0 auto;
-    width: 96%;
     display: flex;
 }
 .item-info{

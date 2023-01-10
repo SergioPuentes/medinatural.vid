@@ -1,7 +1,19 @@
 .footer{
     display: flex;
-    width: 70%;
-    background-color: bisque;
+    width: 100%;
+    background-color: #B0DFCD;
     height: 12rem;
     margin: 1rem auto 0 auto;
+    justify-content: center;
+}
+.footer div{
+    margin: auto auto;
+}
+.footer div a img {
+    width: 5rem;
+}
+.footer .social-media{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
 }

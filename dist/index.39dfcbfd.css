@@ -1,9 +1,10 @@
 * {
   box-sizing: border-box;
-  color: #000;
+  color: #003c4d;
   margin: 0;
   padding: 0;
-  font-family: Montserrat, sans-serif;
+  font-family: ROBOTO, sans-serif;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -13,7 +14,7 @@ html {
 
 body {
   min-height: 100%;
-  background-color: #e1e7ec;
+  width: 100%;
   flex-direction: column;
   display: flex;
 }
@@ -21,7 +22,7 @@ body {
 header {
   width: 96%;
   height: 9rem;
-  background-color: #faebd7;
+  background-color: #b0dfcd;
   border: 1px solid #acacb8;
   border-radius: 2rem;
   margin: 1rem auto 0;
@@ -63,26 +64,22 @@ nav ul {
 }
 
 ul button {
-  color: #ff495c;
-  background-color: #faebd7;
-  border: 1px solid #fd6070;
-  border-radius: 1rem;
+  background-color: #b0dfcd;
+  border: none;
   margin: 0 1rem;
   padding: .4rem;
-  font-family: Segoe UI;
-  font-size: 2rem;
-  font-weight: 600;
+  font-family: Roboto;
+  font-size: 2.2rem;
   transition: all .3s linear;
   display: inline-block;
 }
 
-ul button li, ul a li {
-  color: #ff495c;
+ul button li {
+  color: #fff;
+  font-weight: 800;
 }
 
 ul a {
-  border: 1px solid #fd6070;
-  border-radius: 1rem;
   margin: 0 1rem;
   padding: .4rem;
   font-family: Segoe UI;
@@ -96,14 +93,10 @@ main {
   max-width: 100rem;
   width: 96%;
   text-align: center;
-  background-color: #fff;
+  background-color: #b0dfcd;
   border: 1px solid #acacb8;
   border-radius: 2rem;
   margin: 8rem auto;
-}
-
-section {
-  padding: 2rem;
 }
 
 section h1 {
@@ -129,15 +122,14 @@ section p {
 }
 
 .menu-selected {
-  background-color: #f0f8ff;
-  border: 1px solid #9b9a9a;
+  width: 95%;
+  background-color: #b0dfcd;
+  border: 1px solid #b00000;
   border-radius: 2rem;
+  margin: 0 auto;
 }
 
 #menu-selected {
-  max-width: 100rem;
-  width: 96%;
-  margin: 0 auto;
   display: flex;
 }
 
@@ -183,10 +175,25 @@ section p {
 }
 
 .footer {
-  width: 70%;
+  width: 100%;
   height: 12rem;
-  background-color: bisque;
+  background-color: #b0dfcd;
+  justify-content: center;
   margin: 1rem auto 0;
+  display: flex;
+}
+
+.footer div {
+  margin: auto;
+}
+
+.footer div a img {
+  width: 5rem;
+}
+
+.footer .social-media {
+  width: 30%;
+  justify-content: space-between;
   display: flex;
 }
 

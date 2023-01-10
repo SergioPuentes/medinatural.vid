@@ -5,6 +5,7 @@ import homeopatia from "../products/homeopatia"
 import returnItem from "../components/item"
 import getHash from "../utils/getHash"
 import herbalfruit from "../products/herbalfruit"
+import contacto from "../products/contacto"
 let title = ""
 const data = ()=>{
     let hash = getHash()
@@ -19,7 +20,7 @@ const data = ()=>{
         return products
     }else if(hash == "menu-selected4"){
         title = "Contactenos"
-        return 0
+        return contacto
     }else if(hash == "menu-selected5"){
         title = "Fotos sede"
         return sede
