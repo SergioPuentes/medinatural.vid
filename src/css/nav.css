@@ -59,6 +59,9 @@ ul button li{
 }
 #btn-menu:checked ~ .container-menu , .cont-menu{
     transform: translateX(0%);
+    opacity: 1;
+    visibility: visible;
+    display: block;
 
 }
 .container-menu{
@@ -70,13 +73,16 @@ ul button li{
     right: 0;
     transition: all 500ms ease;
     transform: translateX(100%);
+    opacity: 0;
+    visibility: hidden;
+    display: none;
 }
 .cont-menu{
     width: 100%;
     max-width: 250px;
     background-color: #1c1c1c;
     height: 100%;
-    position: absolute;
+    position: relative;
     right: 0;
     justify-self: flex-end;
     transform: translateX(0%);
