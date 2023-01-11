@@ -8,6 +8,8 @@
 }
 .footer div{
     margin: auto auto;
+    width: 100%;
+    max-width: 50rem;
 }
 .footer div a{
     text-align: center;
