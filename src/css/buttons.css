@@ -1,8 +1,20 @@
 .view-sedes{
     background-color:#00C18A ;
     padding: 1.2rem;
-    border: 1px solid #acacb8;
-    border-radius: 1rem;
+    border: 1px solid #00C18A;
+    border-radius: 2rem;
     color: #ffffff;
     margin-bottom: 4rem;
+    width: 30%;
+    max-width: 50rem;
+    height: 6rem;
+    font-weight: 100;
+    font-size: 1.8rem;
+    font-family: Anton ,sans-serif;
+
+}
+.close-icon{
+    float: right;
+    margin-right: 2rem;
+    margin-top: 2rem;
 }

@@ -10,23 +10,23 @@ let title = ""
 const data = ()=>{
     let hash = getHash()
     if(hash == "menu-selected1"){
-        title = "Homeopatía"
+        title = ""
         return homeopatia
     }else if(hash == "menu-selected2"){
-        title = "Servicios"
+        title = ""
         return services
     }else if(hash == "menu-selected3"){
-        title = "Productos"
+        title = ""
         return products
     }else if(hash == "menu-selected4"){
-        title = "Contactenos"
+        title = ""
         return contacto
     }else if(hash == "menu-selected5"){
-        title = "Fotos sede"
+        title = ""
         return sede
     }
     else if(hash == "menu-selected6"){
-        title = "HerbalFruit"
+        title = ""
         return herbalfruit
     }
 }

@@ -7,8 +7,9 @@ header{
     margin-top: 1rem;
 }
 .barra{
-    max-width: 100%;
     padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 .icon{
     display: flex;
@@ -23,23 +24,17 @@ header{
     width: 9.5rem;
 }
 nav{
-    float: right;
-    display: flex;
-    align-items: center;
-    min-height: 9rem;
-    margin-right: 2rem;
-    max-width: 60%;
+    height: 9rem;
 }
 nav ul{
     list-style: none;
-    display: flex;
-    justify-content: space-between;
+    margin-top: 3rem;
 }
 ul button {
     transition: .3s linear;
     display: inline-block;
     margin: 0 1rem;
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-family:'Roboto';
     padding: 0.4rem;
     background-color: #B0DFCD;
@@ -57,4 +52,9 @@ ul a{
     font-weight: 600;
     font-family:'Segoe UI';
     padding: 0.4rem;
+}
+@media (max-width:1104px){
+    ul{
+        display: none;
+    }
 }

@@ -589,7 +589,7 @@ function scroll() {
     newURL.click();
 }
 
-},{"./routes/index":"3L9mC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./utils/viewsede":"jC5Ub"}],"3L9mC":[function(require,module,exports) {
+},{"./routes/index":"3L9mC","./utils/viewsede":"jC5Ub","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3L9mC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getHashJs = require("../utils/getHash.js");
@@ -688,22 +688,22 @@ let title = "";
 const data = ()=>{
     let hash = (0, _getHashDefault.default)();
     if (hash == "menu-selected1") {
-        title = "Homeopat\xeda";
+        title = "";
         return 0, _homeopatiaDefault.default;
     } else if (hash == "menu-selected2") {
-        title = "Servicios";
+        title = "";
         return 0, _serviciosDefault.default;
     } else if (hash == "menu-selected3") {
-        title = "Productos";
+        title = "";
         return 0, _productosDefault.default;
     } else if (hash == "menu-selected4") {
-        title = "Contactenos";
+        title = "";
         return 0, _contactoDefault.default;
     } else if (hash == "menu-selected5") {
-        title = "Fotos sede";
+        title = "";
         return 0, _sedeDefault.default;
     } else if (hash == "menu-selected6") {
-        title = "HerbalFruit";
+        title = "";
         return 0, _herbalfruitDefault.default;
     }
 };
@@ -723,7 +723,7 @@ const menu = async ()=>{
 };
 exports.default = menu;
 
-},{"../products/productos":"ceCzh","../products/servicios":"lye8P","../components/item":"klNFr","../utils/getHash":"cBXxo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../products/sede":"jfqGO","../products/homeopatia":"ijUHX","../products/herbalfruit":"fpzWO","../products/contacto":"d6ZcD"}],"ceCzh":[function(require,module,exports) {
+},{"../products/productos":"ceCzh","../products/sede":"jfqGO","../products/servicios":"lye8P","../products/homeopatia":"ijUHX","../components/item":"klNFr","../utils/getHash":"cBXxo","../products/herbalfruit":"fpzWO","../products/contacto":"d6ZcD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ceCzh":[function(require,module,exports) {
 const products = [
     {
         name: "TRATAMIENTO FITOTERAPEUTICO PANCREAS:",
@@ -1115,6 +1115,36 @@ const products = [
 ];
 module.exports = products;
 
+},{}],"jfqGO":[function(require,module,exports) {
+const sede = [
+    {
+        name: "",
+        photo: "https://i.postimg.cc/VktBxDjS/Captura-de-pantalla-2023-01-04-014726.png",
+        description: ``
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/RFS7nm2f/Captura-de-pantalla-2023-01-04-014800.png",
+        description: ``
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/cJNM0wmF/Captura-de-pantalla-2023-01-04-014818.png",
+        description: ``
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/1tvpGTZd/Captura-de-pantalla-2023-01-04-014832.png",
+        description: ``
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/PqzbxJVT/Captura-de-pantalla-2023-01-04-014846.png",
+        description: ``
+    }
+];
+module.exports = sede;
+
 },{}],"lye8P":[function(require,module,exports) {
 const services = [
     {
@@ -1211,79 +1241,249 @@ const services = [
 ];
 module.exports = services;
 
-},{}],"klNFr":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-const returnItem = (data)=>{
-    return `<div class="item-info">
-    <h3>${data.name}</h3>
-    <img src=${data.photo} alt="">
-    <p>${data.description}</p>
-</div>`;
-};
-exports.default = returnItem;
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jfqGO":[function(require,module,exports) {
-const sede = [
-    {
-        name: "",
-        photo: "https://i.postimg.cc/VktBxDjS/Captura-de-pantalla-2023-01-04-014726.png",
-        description: ``
-    },
-    {
-        name: "",
-        photo: "https://i.postimg.cc/RFS7nm2f/Captura-de-pantalla-2023-01-04-014800.png",
-        description: ``
-    },
-    {
-        name: "",
-        photo: "https://i.postimg.cc/cJNM0wmF/Captura-de-pantalla-2023-01-04-014818.png",
-        description: ``
-    },
-    {
-        name: "",
-        photo: "https://i.postimg.cc/1tvpGTZd/Captura-de-pantalla-2023-01-04-014832.png",
-        description: ``
-    },
-    {
-        name: "",
-        photo: "https://i.postimg.cc/PqzbxJVT/Captura-de-pantalla-2023-01-04-014846.png",
-        description: ``
-    }
-];
-module.exports = sede;
-
 },{}],"ijUHX":[function(require,module,exports) {
 const homeopatia = [
     {
         name: "Globulos frasco x10gr",
         photo: "https://i.postimg.cc/8P01rbfz/Captura-de-pantalla-2023-01-04-011531.png",
-        description: ``
+        nombres: [
+            `Anacardium occidentalis`,
+            `Berberis vulgaris`,
+            "Carbo vegetabilis",
+            "Chelidonium majus",
+            "Echinacea",
+            "Ledum palustre",
+            "Lycopodium clavatum",
+            "Nux v\xf3mica",
+            "Phytolacca decandra",
+            "Rawolfia",
+            "Spigelia anthelmia"
+        ],
+        indicaciones: [
+            "Cerebro",
+            "Trastornos hepato-urinarios",
+            "Gastritis",
+            "Colelitiasis",
+            "angustifolia Defensas",
+            "Artrosis",
+            "Trastornos hep\xe1ticos",
+            "Trastornos gastrointestinales",
+            "Sistema inmunol\xf3gico",
+            "Tensi\xf3n alta",
+            "Cef\xe1leas"
+        ]
     },
     {
         name: "Triturados frasco x60gr",
         photo: "https://i.postimg.cc/25pr08wp/Captura-de-pantalla-2023-01-04-011550.png",
-        description: ``
+        nombres: [
+            "Arteria",
+            "Bronquio",
+            "Cart\xedlago",
+            "Cerebelo Cinetosis",
+            "Coraz\xf3n",
+            "Higado",
+            "Hip\xf3fisis anterior",
+            "Hipot\xe1lamo",
+            "Hueso",
+            "M\xe9dula \xf3sea",
+            "Mucosa g\xe1strica",
+            "Mucosa nasal",
+            "Nervio \xf3ptico",
+            "Ojo total",
+            "Ovario",
+            "P\xe1ncreas",
+            "Pr\xf3stata",
+            "Pulm\xf3n",
+            "Retina",
+            "Ri\xf1\xf3n",
+            "Tiroides",
+            "Ur\xe9ter",
+            "\xdatero"
+        ],
+        indicaciones: [
+            "Hipertensi\xf3n arterial",
+            "Asma bronquial",
+            "Regenerador \xf3seo",
+            "v\xe9rtigo",
+            "Insuficiencia card\xedaca",
+            "Hepatopat\xedas",
+            "Trastornos endocrinos",
+            "Deficiencia del crecimiento",
+            "Descalcificaci\xf3n",
+            "Anemia, leucemia",
+            "\xdalcera p\xe9ptica, g\xe1strica y duidenal.",
+            "Rinitis cr\xf3nica",
+            "Neuritis \xf3ptica",
+            "Trastornos de la visi\xf3n",
+            "Disfunci\xf3n ov\xe1rica",
+            "Diabetes mellitus",
+            "Prostatitis",
+            "Enfisema pulmonar",
+            "Degeneraci\xf3n de la retina",
+            "Insuficiencia renal",
+            "Trastornos de la tiroides",
+            "Ureteritis",
+            "Miomatosis uterina"
+        ]
     },
     {
         name: "Ampollas bebibles caja por 12 unidades",
         photo: "https://i.postimg.cc/sXsyR6qw/Captura-de-pantalla-2023-01-04-011611.png",
-        description: ``
+        nombres: [
+            "Bryonia alba",
+            "Carduus marianus",
+            "Echinacea angustifolia",
+            "Hamamelis virginiana",
+            "Lentinus edodes",
+            "Lycopus virginica",
+            "Robinia pseudoacacia",
+            "Sabal serrulata",
+            "Sticta pulmonaria",
+            "Cloruro de magnesio"
+        ],
+        indicaciones: [
+            "Sistema osteoarticular",
+            "Afecciones hep\xe1ticas",
+            "Sistema inmunol\xf3gico",
+            "Sistema circulatorio",
+            "Colesterol",
+            "Sistema cardiovascular",
+            "Sistema gastrointestinal",
+            "Pr\xf3stata",
+            "Sistema respiratorio",
+            "Equilibrante org\xe1nico"
+        ]
     },
     {
         name: "Jarabes frasco x 240 ml",
         photo: "https://i.postimg.cc/QdKjgWck/Captura-de-pantalla-2023-01-04-011626.png",
-        description: ``
+        nombres: [
+            "Calomel",
+            "Cucurbita pepo",
+            "Drosera rotundifolia",
+            "Ginkgo biloba",
+            "Hypericum perforatum",
+            "Peumus boldus",
+            "Zarzaparilla",
+            "Plata coloidal"
+        ],
+        indicaciones: [
+            "Gastritis",
+            "Par\xe1sitos",
+            "Tos",
+            "Memoria",
+            "Nervios",
+            "Drenador hep\xe1tico",
+            "Depurativo",
+            "Bacterias y antibi\xf3tico natural"
+        ]
     },
     {
         name: "Gotas Frasco x 30 ml",
         photo: "https://i.postimg.cc/bvQ8WcCZ/Captura-de-pantalla-2023-01-04-011647.png",
-        description: ``
+        nombres: [
+            "Aesculus",
+            "Baptisia tinctoria",
+            "Carduus marianus",
+            "Chelidonium majus",
+            "Ginseng",
+            "Hamamelis virginiana",
+            "Phosphoricum acidum",
+            "Pinus silvestris",
+            "Populus candicans",
+            "Sabal serrulata",
+            "Scrophularia",
+            "Senecio fuchsii",
+            "Solidago virgaurea",
+            "Vipera berus",
+            "Adonis vernalis",
+            "Alumen",
+            "Argentum nitricum",
+            "Aurum metallicum",
+            "Ferrum metallicum",
+            "Fumaria officinalis",
+            "Hedeoma",
+            "Humulus lupulus",
+            "Leptandra virginica",
+            "Marsdenia condurango",
+            "Mercurius solubilis",
+            "Myristica sebifera",
+            "Sabadilla officinalis",
+            "Silicea Drenador",
+            "Uva ursi",
+            "Oligoelementos"
+        ],
+        indicaciones: [
+            "hippocastanum Circulaci\xf3n",
+            "Bloqueos enzim\xe1ticos",
+            "Afecciones hepatobiliares",
+            "Colelitiasis",
+            "Revitalizante",
+            "Congestiones venosas",
+            "Sistema nervioso",
+            "Linfatismos",
+            "Prostatitis",
+            "Adenoma prost\xe1tico",
+            "Sistemas enzim\xe1ticos",
+            "Trastornos menstruales",
+            "Drenador renal",
+            "Trastornos circulatorio",
+            "Tiroides",
+            "Estre\xf1imiento",
+            "Afecciones g\xe1strico-duodenales",
+            "Arterioesclerosis",
+            "Anemia",
+            "Drenador general",
+            "Acido \xfarico",
+            "Insomio",
+            "Hepatitis",
+            "C\xe1ncer",
+            "Afecciones garganta",
+            "Miomas (quistes)",
+            "Alergias",
+            "linf\xe1tico",
+            "Vejiga",
+            "todos en general."
+        ]
     }
 ];
 module.exports = homeopatia;
 
-},{}],"fpzWO":[function(require,module,exports) {
+},{}],"klNFr":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+const returnItem = (data)=>{
+    let recurso;
+    let cuadrox;
+    let cuadroy;
+    let cuadro;
+    let clase = "div";
+    let clasea = "div";
+    if (data.class) {
+        clase = "a";
+        clasea = `a href="${data.href}"`;
+    }
+    if (data.source) recurso = data.source;
+    else recurso = `<img src=${data.photo} alt="">`;
+    if (data.nombres) {
+        cuadrox = data.nombres;
+        cuadroy = data.indicaciones;
+        cuadro = `  <div class="cuadro">
+            <div class="cuadrox"><h2>Nombre:</h2> <br> <br>${cuadrox.join("<br><br>")}</div>
+            <div class="cuadroy"><h2>Indicación:</h2><br> <br>${cuadroy.join("<br><br>")}</div>
+            </div>`;
+    } else cuadro = `<p>${data.description}</p>`;
+    return `<${clasea} class="item-info ${data.class}">
+    <h3>${data.name}</h3>
+    ${recurso}
+    ${cuadro}
+    
+</${clase}>`;
+};
+exports.default = returnItem;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fpzWO":[function(require,module,exports) {
 const herbalfruit = [
     {
         name: "",
@@ -1302,23 +1502,30 @@ module.exports = herbalfruit;
 const contacto = [
     {
         name: "Whatsapp",
-        description: "Escribenos por Whatsapp",
-        photo: "https://cdn-icons-png.flaticon.com/128/733/733641.png"
-    },
-    {
-        name: "Estamos ubicados en San Gil-Santander",
-        description: "Cra 9 #9-35 Frente a la fiscalia municipal",
-        photo: "https://cdn-icons-png.flaticon.com/512/2354/2354133.png"
+        description: "\xa1Haz click para escribirnos por Whatsapp!",
+        photo: "https://cdn-icons-png.flaticon.com/128/733/733641.png",
+        class: "icon",
+        href: "https://api.whatsapp.com/send?phone=+573132381049&text=Hola,%20estoy%20interesado%20en%20mas%20informaci%C3%B3n%20respecto:"
     },
     {
         name: "Facebook",
-        description: "Escribenos por Facebook",
-        photo: "https://cdn-icons-png.flaticon.com/128/1384/1384005.png"
+        description: "\xa1Haz click para escribirnos por Facebook!",
+        photo: "https://cdn-icons-png.flaticon.com/128/1384/1384005.png",
+        class: "icon",
+        href: "https://www.facebook.com/profile.php?id=100087411810135&mibextid=ZbWKwL"
     },
     {
         name: "Telefono",
         description: "LLamanos 3132381049",
-        photo: "https://cdn-icons-png.flaticon.com/512/2354/2354127.png"
+        photo: "https://cdn-icons-png.flaticon.com/512/2354/2354127.png",
+        class: "icon",
+        href: "tel:+3132381049"
+    },
+    {
+        name: "Estamos ubicados en San Gil-Santander",
+        description: "Cra 9 #9-35 Frente a la fiscalia municipal",
+        source: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.7481161943338!2d-73.13279568255615!3d6.553450899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e69c7262194e579%3A0x254a44ac47295636!2sCra.%209%20%239-35%2C%20San%20Gil%2C%20Santander!5e0!3m2!1ses!2sco!4v1673370973047!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
+        class: "icon"
     }
 ];
 module.exports = contacto;

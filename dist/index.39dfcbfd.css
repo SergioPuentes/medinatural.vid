@@ -15,6 +15,7 @@ html {
 body {
   min-height: 100%;
   width: 100%;
+  background-color: #e2e2e2;
   flex-direction: column;
   display: flex;
 }
@@ -28,8 +29,9 @@ header {
 }
 
 .barra {
-  max-width: 100%;
+  justify-content: space-between;
   padding: 0 1rem;
+  display: flex;
 }
 
 .icon {
@@ -48,18 +50,12 @@ header {
 }
 
 nav {
-  float: right;
-  min-height: 9rem;
-  max-width: 60%;
-  align-items: center;
-  margin-right: 2rem;
-  display: flex;
+  height: 9rem;
 }
 
 nav ul {
-  justify-content: space-between;
+  margin-top: 3rem;
   list-style: none;
-  display: flex;
 }
 
 ul button {
@@ -68,7 +64,7 @@ ul button {
   margin: 0 1rem;
   padding: .4rem;
   font-family: Roboto;
-  font-size: 2.2rem;
+  font-size: 2rem;
   transition: all .3s linear;
   display: inline-block;
 }
@@ -86,6 +82,12 @@ ul a {
   font-weight: 600;
   transition: all .3s linear;
   display: inline-block;
+}
+
+@media (max-width: 1104px) {
+  ul {
+    display: none;
+  }
 }
 
 main {
@@ -112,13 +114,29 @@ section p {
   line-height: 30px;
 }
 
+.img-welcome {
+  max-width: 100%;
+}
+
 .view-sedes {
   color: #fff;
+  width: 30%;
+  max-width: 50rem;
+  height: 6rem;
   background-color: #00c18a;
-  border: 1px solid #acacb8;
-  border-radius: 1rem;
+  border: 1px solid #00c18a;
+  border-radius: 2rem;
   margin-bottom: 4rem;
   padding: 1.2rem;
+  font-family: Anton, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 100;
+}
+
+.close-icon {
+  float: right;
+  margin-top: 2rem;
+  margin-right: 2rem;
 }
 
 .menu-selected {
@@ -133,25 +151,31 @@ section p {
 }
 
 .item-info {
-  width: 100%;
+  width: 80%;
   text-align: center;
+  background-color: #e2e2e2;
+  border-radius: 2rem;
   flex-direction: column;
-  margin-bottom: 6rem;
+  margin: 4rem auto;
+  padding: 2rem;
   display: flex;
 }
 
 .item-info img {
-  width: 100%;
-  max-width: 40rem;
+  width: 90%;
+  max-width: 90rem;
   margin: 4rem auto 0;
 }
 
 .item-info h3 {
-  font-size: 1.6rem;
+  font-family: Anton, sans-serif;
+  font-size: 4rem;
 }
 
 .item-info p {
-  font-size: 1.5rem;
+  text-align: left;
+  padding: 2rem;
+  font-size: 1.8rem;
 }
 
 .image-product {
@@ -169,8 +193,34 @@ section p {
 }
 
 .item-container div h2 {
-  margin-bottom: 8rem;
   font-size: 2.7rem;
+}
+
+iframe {
+  margin: 0 auto;
+}
+
+.cuadro {
+  width: 100%;
+  text-align: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.cuadrox, .cuadroy, .items {
+  flex-direction: column;
+  display: flex;
+}
+
+.icon img {
+  width: 10rem;
+}
+
+.icon p {
+  text-align: center;
+  color: #003c4d;
 }
 
 .footer {
@@ -184,6 +234,11 @@ section p {
 
 .footer div {
   margin: auto;
+}
+
+.footer div a {
+  text-align: center;
+  margin: auto 0;
 }
 
 .footer div a img {
