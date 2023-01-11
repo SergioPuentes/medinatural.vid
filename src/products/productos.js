@@ -1,6 +1,6 @@
 const products = [
     {
-    name:"TRATAMIENTO FITOTERAPEUTICO PANCREAS:",
+    name:"TRATAMIENTO FITOTERAPÉUTICO PÁNCREAS:",
     photo:"https://i.postimg.cc/VkkG0xN8/pancreas.png",
     description:`
     Diseñado para ayudar al
@@ -27,7 +27,7 @@ const products = [
     tipo 2. `
     },
     {
-    name:"TRATAMIENTO FITOTERAPEUTICO COLON:",
+    name:"TRATAMIENTO FITOTERAPÉUTICO COLON:",
     photo:"https://i.postimg.cc/qvJYXtjW/colon.png",
     description:`Está elaborado con la
     mejor calidad de plantas
@@ -97,7 +97,7 @@ const products = [
     inmunidad y/o muy descompensadas nutricionalmente.`
     },
     {
-    name:"TRATAMIENTO FITOTERAPEUTICO RIÑON:",
+    name:"TRATAMIENTO FITOTERAPÉUTICO RIÑÓN:",
     photo:"https://i.postimg.cc/VkZ7qKSb/ri-on.png",
     description:`Su fórmula Fito
     terapéutica fue
@@ -125,7 +125,7 @@ const products = [
     No apto para personas en tratamiento con diálisis.`
     },  
     {
-    name:"TRATAMIENTO FITOTERAPEUTICO MUCOSA:",
+    name:"TRATAMIENTO FITOTERAPÉUTICO MUCOSA:",
     photo:"https://i.postimg.cc/PxwFr15v/mucosa.png",
     description:`Fue creado para el
     tratamiento preventivo y
@@ -158,7 +158,7 @@ const products = [
     gastrointestinal.`
     },
     {
-    name:"TRATAMIENTO FITOTERAPEUTICO CARTILAGO:",
+    name:"TRATAMIENTO FITOTERAPÉUTICO CARTÍLAGO:",
     photo:"https://i.postimg.cc/L5FQqhJC/cartilago.png",
     description:`nuestro sistema articular, se
     deteriora no solo con la
@@ -189,7 +189,7 @@ const products = [
     artritis, reumatismo, gota, dolor e inflamación articular, entre muchas otras.`
     },
     {
-    name:"TRATAMIENTO FITOTERAPEUTICO HIGADO:",
+    name:"TRATAMIENTO FITOTERAPÉUTICO HÍGADO:",
     photo:"https://i.postimg.cc/0yV4t84j/higado.png",
     description:`Elaborado con las
     mejores plantas
@@ -218,7 +218,7 @@ const products = [
     El secreto de gozar de una buena salud, es un hígado sano.`
     }, 
     {
-    name:"TRATAMIENTO FITOTERAPEUTICO OVARIO:",
+    name:"TRATAMIENTO FITOTERAPÉUTICO OVARIO:",
     photo:"https://i.postimg.cc/CMb63C2W/ovario.png",
     description:`Este medicamento fue
     diseñado especialmente
@@ -276,7 +276,7 @@ const products = [
     tratamiento de enfermedades degenerativas.`
     },
     {
-    name:"TRATAMIENTO FITOTERAPEUTICO ARTERIA C:",
+    name:"TRATAMIENTO FITOTERAPÉUTICO ARTERIA C:",
     photo:"https://i.postimg.cc/kMSknP2Y/arteriac.png",
     description:`Nuestro sistema
     circulatorio lleva
@@ -304,7 +304,7 @@ const products = [
     cardiovascular.`
     }, 
     {
-    name:"TRATAMIENTO FITOTERAPEUTICO ARTERIA G:",
+    name:"TRATAMIENTO FITOTERAPÉUTICO ARTERIA G:",
     photo:"https://i.postimg.cc/Fsg8Lbgj/arteriag.png",
     description:`Las grasas no fluyen de manera ágil en el sistema circulatorio, por lo
     que no se lleva acabo
@@ -331,7 +331,7 @@ const products = [
     sangre.`
     },
     {
-    name:"TRATAMIENTO FITOTERAPEUTICO PULMON:",
+    name:"TRATAMIENTO FITOTERAPÉUTICO PULMÓN:",
     photo:"https://i.postimg.cc/FsZCRrNp/pulmon.png",
     description:`Los pulmones nos permiten
     respirar la entrada de
@@ -358,7 +358,7 @@ const products = [
     asma, bronquitis etc.`
     },
     {
-    name:"TRATAMIENTO FITOTERAPEUTICO NEURO:",
+    name:"TRATAMIENTO FITOTERAPÉUTICO NEURO:",
     photo:"https://i.postimg.cc/N0VzcdBw/neuro.png",
     description:`Todas las personas
     hemos pasado por algún
