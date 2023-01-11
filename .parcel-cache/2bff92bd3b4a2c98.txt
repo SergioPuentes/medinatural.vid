@@ -1,9 +1,9 @@
 4605
-64/home/sergiop27/personalProyects/medinatural.vid/dist/index.html1673453788683793915 0
+64/home/sergiop27/personalProyects/medinatural.vid/dist/index.html1673455393823777537 0
 76/home/sergiop27/personalProyects/medinatural.vid/dist/index.94172b24.css.map1673449716073835469 0
-71/home/sergiop27/personalProyects/medinatural.vid/dist/logo.08a29ce2.png1673453427633797599 0
+71/home/sergiop27/personalProyects/medinatural.vid/dist/logo.08a29ce2.png1673455393803777537 0
 71/home/sergiop27/personalProyects/medinatural.vid/dist/logo.f46edad4.png1673449715813835472 0
-53/home/sergiop27/personalProyects/medinatural.vid/dist1673454351143788176 1
+53/home/sergiop27/personalProyects/medinatural.vid/dist1673455498903776465 1
 61/home/sergiop27/personalProyects/medinatural.vid/package.json1673449635263836294 0
 63/home/sergiop27/personalProyects/medinatural.vid/src/index.html1673453788603793916 0
 74/home/sergiop27/personalProyects/medinatural.vid/src/products/productos.js1673449635263836294 0
@@ -12,7 +12,7 @@
 71/home/sergiop27/personalProyects/medinatural.vid/src/components/nada.js1673449635263836294 0
 63/home/sergiop27/personalProyects/medinatural.vid/src/components1673449635263836294 1
 74/home/sergiop27/personalProyects/medinatural.vid/src/css/menu-selected.css1673449635263836294 0
-68/home/sergiop27/personalProyects/medinatural.vid/src/css/buttons.css1673449635263836294 0
+68/home/sergiop27/personalProyects/medinatural.vid/src/css/buttons.css1673455498853776465 0
 67/home/sergiop27/personalProyects/medinatural.vid/src/css/index.scss1673449635263836294 0
 67/home/sergiop27/personalProyects/medinatural.vid/src/css/footer.css1673449635263836294 0
 56/home/sergiop27/personalProyects/medinatural.vid/src/css1673449635263836294 1
@@ -174,7 +174,7 @@
 93/home/sergiop27/personalProyects/medinatural.vid/node_modules/caniuse-lite/data/regions/TM.js1673449634963836297 0
 93/home/sergiop27/personalProyects/medinatural.vid/node_modules/caniuse-lite/data/regions/GI.js1673449634953836297 0
 93/home/sergiop27/personalProyects/medinatural.vid/node_modules/caniuse-lite/data/regions/AX.js1673449634953836297 0
-75/home/sergiop27/personalProyects/medinatural.vid/dist/index.975ef6c8.js.map1673453427743797598 0
+75/home/sergiop27/personalProyects/medinatural.vid/dist/index.975ef6c8.js.map1673455393823777537 0
 93/home/sergiop27/personalProyects/medinatural.vid/node_modules/caniuse-lite/data/regions/AR.js1673449634953836297 0
 93/home/sergiop27/personalProyects/medinatural.vid/node_modules/caniuse-lite/data/regions/AF.js1673449634953836297 0
 93/home/sergiop27/personalProyects/medinatural.vid/node_modules/caniuse-lite/data/regions/MT.js1673449634963836297 0
@@ -484,7 +484,7 @@
 129/home/sergiop27/personalProyects/medinatural.vid/node_modules/@msgpackr-extract/msgpackr-extract-linux-x64/node.abi108.glibc.node1673449633543836311 0
 116/home/sergiop27/personalProyects/medinatural.vid/node_modules/@msgpackr-extract/msgpackr-extract-linux-x64/README.md1673449633543836311 0
 119/home/sergiop27/personalProyects/medinatural.vid/node_modules/@msgpackr-extract/msgpackr-extract-linux-x64/package.json1673449633543836311 0
-66/home/sergiop27/personalProyects/medinatural.vid/src/css/index.css1673449635263836294 0
+66/home/sergiop27/personalProyects/medinatural.vid/src/css/index.css1673455402933777444 0
 79/home/sergiop27/personalProyects/medinatural.vid/node_modules/@msgpackr-extract1673449736503835261 1
 78/home/sergiop27/personalProyects/medinatural.vid/node_modules/inherits/LICENSE1673449635033836296 0
 83/home/sergiop27/personalProyects/medinatural.vid/node_modules/inherits/package.json1673449635033836296 0
@@ -1297,7 +1297,7 @@
 81/home/sergiop27/personalProyects/medinatural.vid/node_modules/lmdb/dict/dict2.txt1673449635133836295 0
 80/home/sergiop27/personalProyects/medinatural.vid/node_modules/lmdb/dict/dict.txt1673449635133836295 0
 80/home/sergiop27/personalProyects/medinatural.vid/node_modules/lmdb/node-index.js1673449635133836295 0
-65/home/sergiop27/personalProyects/medinatural.vid/src/css/main.css1673451276643819546 0
+65/home/sergiop27/personalProyects/medinatural.vid/src/css/main.css1673455423273777236 0
 93/home/sergiop27/personalProyects/medinatural.vid/node_modules/caniuse-lite/data/regions/NE.js1673449634963836297 0
 75/home/sergiop27/personalProyects/medinatural.vid/node_modules/lmdb/write.js1673449635143836295 0
 92/home/sergiop27/personalProyects/medinatural.vid/node_modules/source-map/lib/mapping-list.js1673449635213836294 0
@@ -1894,7 +1894,7 @@
 71/home/sergiop27/personalProyects/medinatural.vid/node_modules/callsites1673449634923836297 1
 110/home/sergiop27/personalProyects/medinatural.vid/node_modules/caniuse-lite/data/features/font-unicode-range.js1673449634943836297 0
 80/home/sergiop27/personalProyects/medinatural.vid/node_modules/base64-js/index.js1673449634923836297 0
-71/home/sergiop27/personalProyects/medinatural.vid/dist/index.975ef6c8.js1673453427743797598 0
+71/home/sergiop27/personalProyects/medinatural.vid/dist/index.975ef6c8.js1673455393793777537 0
 76/home/sergiop27/personalProyects/medinatural.vid/node_modules/gopd/.eslintrc1673449635013836296 0
 91/home/sergiop27/personalProyects/medinatural.vid/node_modules/@parcel/core/lib/constants.js1673449633573836311 0
 107/home/sergiop27/personalProyects/medinatural.vid/node_modules/htmlnano/lib/modules/removeEmptyAttributes.js1673449635023836296 0
@@ -2749,7 +2749,7 @@
 84/home/sergiop27/personalProyects/medinatural.vid/node_modules/picomatch/package.json1673449635173836295 0
 105/home/sergiop27/personalProyects/medinatural.vid/node_modules/@parcel/transformer-svg/lib/dependencies.js1673449634853836298 0
 104/home/sergiop27/personalProyects/medinatural.vid/node_modules/@swc/helpers/src/_class_name_tdz_error.mjs1673449634913836297 0
-72/home/sergiop27/personalProyects/medinatural.vid/dist/index.39dfcbfd.css1673454351143788176 0
+72/home/sergiop27/personalProyects/medinatural.vid/dist/index.39dfcbfd.css1673455498893776465 0
 95/home/sergiop27/personalProyects/medinatural.vid/node_modules/caniuse-lite/data/features/mp3.js1673449634943836297 0
 87/home/sergiop27/personalProyects/medinatural.vid/node_modules/terser/dist/bundle.min.js1673449635233836294 0
 95/home/sergiop27/personalProyects/medinatural.vid/node_modules/caniuse-lite/data/features/rem.js1673449634943836297 0
@@ -3054,7 +3054,7 @@
 95/home/sergiop27/personalProyects/medinatural.vid/node_modules/csso/lib/replace/property/font.js1673449635003836296 0
 98/home/sergiop27/personalProyects/medinatural.vid/node_modules/css-tree/lib/lexer/generic-urange.js1673449634983836297 0
 100/home/sergiop27/personalProyects/medinatural.vid/node_modules/css-tree/lib/syntax/node/MediaQuery.js1673449634993836297 0
-76/home/sergiop27/personalProyects/medinatural.vid/dist/index.39dfcbfd.css.map1673454351143788176 0
+76/home/sergiop27/personalProyects/medinatural.vid/dist/index.39dfcbfd.css.map1673455498903776465 0
 93/home/sergiop27/personalProyects/medinatural.vid/node_modules/caniuse-lite/data/regions/PH.js1673449634963836297 0
 96/home/sergiop27/personalProyects/medinatural.vid/node_modules/electron-to-chromium/versions.json1673449635013836296 0
 74/home/sergiop27/personalProyects/medinatural.vid/node_modules/css-tree/lib1673449634993836297 1
