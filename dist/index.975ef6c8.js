@@ -544,6 +544,11 @@ let button3 = document.getElementById("menu-selected3");
 let button4 = document.getElementById("menu-selected4");
 let button5 = document.getElementById("menu-selected5");
 let button6 = document.getElementById("menu-selected6");
+let button11 = document.getElementById("menuselected11");
+let button22 = document.getElementById("menuselected22");
+let button33 = document.getElementById("menuselected33");
+let button44 = document.getElementById("menuselected44");
+let button66 = document.getElementById("menuselected66");
 button1.addEventListener("click", async ()=>{
     await elegir("1");
     await (0, _indexDefault.default)();
@@ -570,6 +575,31 @@ button5.addEventListener("click", async ()=>{
     await scroll();
 });
 button6.addEventListener("click", async ()=>{
+    await elegir("6");
+    await (0, _indexDefault.default)();
+    await scroll();
+});
+button11.addEventListener("click", async ()=>{
+    await elegir("1");
+    await (0, _indexDefault.default)();
+    await scroll();
+});
+button22.addEventListener("click", async ()=>{
+    await elegir("2");
+    await (0, _indexDefault.default)();
+    await scroll();
+});
+button33.addEventListener("click", async ()=>{
+    await elegir("3");
+    await (0, _indexDefault.default)();
+    await scroll();
+});
+button44.addEventListener("click", async ()=>{
+    await elegir("4");
+    await (0, _indexDefault.default)();
+    await scroll();
+});
+button66.addEventListener("click", async ()=>{
     await elegir("6");
     await (0, _indexDefault.default)();
     await scroll();
@@ -726,7 +756,7 @@ exports.default = menu;
 },{"../products/productos":"ceCzh","../products/sede":"jfqGO","../products/servicios":"lye8P","../products/homeopatia":"ijUHX","../components/item":"klNFr","../utils/getHash":"cBXxo","../products/herbalfruit":"fpzWO","../products/contacto":"d6ZcD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ceCzh":[function(require,module,exports) {
 const products = [
     {
-        name: "TRATAMIENTO FITOTERAPEUTICO PANCREAS:",
+        name: "TRATAMIENTO FITOTERAP\xc9UTICO P\xc1NCREAS:",
         photo: "https://i.postimg.cc/VkkG0xN8/pancreas.png",
         description: `
     Diseñado para ayudar al
@@ -753,7 +783,7 @@ const products = [
     tipo 2. `
     },
     {
-        name: "TRATAMIENTO FITOTERAPEUTICO COLON:",
+        name: "TRATAMIENTO FITOTERAP\xc9UTICO COLON:",
         photo: "https://i.postimg.cc/qvJYXtjW/colon.png",
         description: `Está elaborado con la
     mejor calidad de plantas
@@ -823,7 +853,7 @@ const products = [
     inmunidad y/o muy descompensadas nutricionalmente.`
     },
     {
-        name: "TRATAMIENTO FITOTERAPEUTICO RI\xd1ON:",
+        name: "TRATAMIENTO FITOTERAP\xc9UTICO RI\xd1\xd3N:",
         photo: "https://i.postimg.cc/VkZ7qKSb/ri-on.png",
         description: `Su fórmula Fito
     terapéutica fue
@@ -851,7 +881,7 @@ const products = [
     No apto para personas en tratamiento con diálisis.`
     },
     {
-        name: "TRATAMIENTO FITOTERAPEUTICO MUCOSA:",
+        name: "TRATAMIENTO FITOTERAP\xc9UTICO MUCOSA:",
         photo: "https://i.postimg.cc/PxwFr15v/mucosa.png",
         description: `Fue creado para el
     tratamiento preventivo y
@@ -884,7 +914,7 @@ const products = [
     gastrointestinal.`
     },
     {
-        name: "TRATAMIENTO FITOTERAPEUTICO CARTILAGO:",
+        name: "TRATAMIENTO FITOTERAP\xc9UTICO CART\xcdLAGO:",
         photo: "https://i.postimg.cc/L5FQqhJC/cartilago.png",
         description: `nuestro sistema articular, se
     deteriora no solo con la
@@ -915,7 +945,7 @@ const products = [
     artritis, reumatismo, gota, dolor e inflamación articular, entre muchas otras.`
     },
     {
-        name: "TRATAMIENTO FITOTERAPEUTICO HIGADO:",
+        name: "TRATAMIENTO FITOTERAP\xc9UTICO H\xcdGADO:",
         photo: "https://i.postimg.cc/0yV4t84j/higado.png",
         description: `Elaborado con las
     mejores plantas
@@ -944,7 +974,7 @@ const products = [
     El secreto de gozar de una buena salud, es un hígado sano.`
     },
     {
-        name: "TRATAMIENTO FITOTERAPEUTICO OVARIO:",
+        name: "TRATAMIENTO FITOTERAP\xc9UTICO OVARIO:",
         photo: "https://i.postimg.cc/CMb63C2W/ovario.png",
         description: `Este medicamento fue
     diseñado especialmente
@@ -1002,7 +1032,7 @@ const products = [
     tratamiento de enfermedades degenerativas.`
     },
     {
-        name: "TRATAMIENTO FITOTERAPEUTICO ARTERIA C:",
+        name: "TRATAMIENTO FITOTERAP\xc9UTICO ARTERIA C:",
         photo: "https://i.postimg.cc/kMSknP2Y/arteriac.png",
         description: `Nuestro sistema
     circulatorio lleva
@@ -1030,7 +1060,7 @@ const products = [
     cardiovascular.`
     },
     {
-        name: "TRATAMIENTO FITOTERAPEUTICO ARTERIA G:",
+        name: "TRATAMIENTO FITOTERAP\xc9UTICO ARTERIA G:",
         photo: "https://i.postimg.cc/Fsg8Lbgj/arteriag.png",
         description: `Las grasas no fluyen de manera ágil en el sistema circulatorio, por lo
     que no se lleva acabo
@@ -1057,7 +1087,7 @@ const products = [
     sangre.`
     },
     {
-        name: "TRATAMIENTO FITOTERAPEUTICO PULMON:",
+        name: "TRATAMIENTO FITOTERAP\xc9UTICO PULM\xd3N:",
         photo: "https://i.postimg.cc/FsZCRrNp/pulmon.png",
         description: `Los pulmones nos permiten
     respirar la entrada de
@@ -1084,7 +1114,7 @@ const products = [
     asma, bronquitis etc.`
     },
     {
-        name: "TRATAMIENTO FITOTERAPEUTICO NEURO:",
+        name: "TRATAMIENTO FITOTERAP\xc9UTICO NEURO:",
         photo: "https://i.postimg.cc/N0VzcdBw/neuro.png",
         description: `Todas las personas
     hemos pasado por algún
@@ -1148,9 +1178,9 @@ module.exports = sede;
 },{}],"lye8P":[function(require,module,exports) {
 const services = [
     {
-        name: "BIOMAGNETISMO MEDICO",
+        name: "BIOMAGNETISMO M\xc9DICO",
         photo: "https://i.postimg.cc/9M8PjSzh/Captura-de-pantalla-2023-01-04-012335.png",
-        description: `Qué es y para qué sirve el biomagnetismo?
+        description: `¿Qué es y para qué sirve el biomagnetismo?
         El biomagnetismo médico es una práctica médica alternativa integral en la que se usa el
         conocimiento del cuerpo humano y sus campos magnéticos para el tratamiento de todo
         tipo de condiciones y lograr el equilibrio funcional del cuerpo. Está indicado para todas
@@ -1184,7 +1214,7 @@ const services = [
         particular. Da Metaterapia a través de la bioresonancia corrige los puntos de entropía, fortaleciendo la energía biológica.`
     },
     {
-        name: "Valoraci\xf3n con scanner Biocu\xe1ntico",
+        name: "Valoraci\xf3n con Scanner Biocu\xe1ntico",
         photo: "https://i.postimg.cc/yx2FDZFp/Captura-de-pantalla-2023-01-04-012600.png",
         description: `El sistema cuántico Bioeléctrico tiene una exactitud cercana al 90%. Los valores
         obtenidos se extrapolan basados en los parámetros leídos en el paciente y en conjunción
@@ -1197,12 +1227,12 @@ const services = [
         resultados inmediatos.`
     },
     {
-        name: "DESINTOXICACION IONICA.",
+        name: "DESINTOXICACI\xd3N I\xd3NICA.",
         photo: "https://i.postimg.cc/bwxQvddL/Captura-de-pantalla-2023-01-04-012630.png",
         description: ``
     },
     {
-        name: "Metabolismo medico",
+        name: "Metabolismo m\xe9dico",
         photo: "https://i.postimg.cc/sgdYy5fv/Captura-de-pantalla-2023-01-04-012658.png",
         description: `MEDINATURAL.VID les ofrece la mejor opción en nutrición, empleando la herbolaria y la
         jugoterapia como una herramienta muy importante en la prevención y tratamiento de
@@ -1244,7 +1274,7 @@ module.exports = services;
 },{}],"ijUHX":[function(require,module,exports) {
 const homeopatia = [
     {
-        name: "Globulos frasco x10gr",
+        name: "Gl\xf3bulos Frasco x10gr",
         photo: "https://i.postimg.cc/8P01rbfz/Captura-de-pantalla-2023-01-04-011531.png",
         nombres: [
             `Anacardium occidentalis`,
@@ -1274,7 +1304,7 @@ const homeopatia = [
         ]
     },
     {
-        name: "Triturados frasco x60gr",
+        name: "Triturados Frasco x60gr",
         photo: "https://i.postimg.cc/25pr08wp/Captura-de-pantalla-2023-01-04-011550.png",
         nombres: [
             "Arteria",
@@ -1328,7 +1358,7 @@ const homeopatia = [
         ]
     },
     {
-        name: "Ampollas bebibles caja por 12 unidades",
+        name: "Ampollas bebibles Caja por 12 unidades",
         photo: "https://i.postimg.cc/sXsyR6qw/Captura-de-pantalla-2023-01-04-011611.png",
         nombres: [
             "Bryonia alba",
@@ -1356,7 +1386,7 @@ const homeopatia = [
         ]
     },
     {
-        name: "Jarabes frasco x 240 ml",
+        name: "Jarabes Frasco x240ml",
         photo: "https://i.postimg.cc/QdKjgWck/Captura-de-pantalla-2023-01-04-011626.png",
         nombres: [
             "Calomel",
@@ -1380,7 +1410,7 @@ const homeopatia = [
         ]
     },
     {
-        name: "Gotas Frasco x 30 ml",
+        name: "Gotas Frasco x30ml",
         photo: "https://i.postimg.cc/bvQ8WcCZ/Captura-de-pantalla-2023-01-04-011647.png",
         nombres: [
             "Aesculus",

@@ -1,8 +1,8 @@
 const services = [
     {
-        name:"BIOMAGNETISMO MEDICO",
+        name:"BIOMAGNETISMO MÉDICO",
         photo:"https://i.postimg.cc/9M8PjSzh/Captura-de-pantalla-2023-01-04-012335.png",
-        description:`Qué es y para qué sirve el biomagnetismo?
+        description:`¿Qué es y para qué sirve el biomagnetismo?
         El biomagnetismo médico es una práctica médica alternativa integral en la que se usa el
         conocimiento del cuerpo humano y sus campos magnéticos para el tratamiento de todo
         tipo de condiciones y lograr el equilibrio funcional del cuerpo. Está indicado para todas
@@ -36,7 +36,7 @@ const services = [
         particular. Da Metaterapia a través de la bioresonancia corrige los puntos de entropía, fortaleciendo la energía biológica.`
     },
     {
-        name:"Valoración con scanner Biocuántico",
+        name:"Valoración con Scanner Biocuántico",
         photo:"https://i.postimg.cc/yx2FDZFp/Captura-de-pantalla-2023-01-04-012600.png",
         description:`El sistema cuántico Bioeléctrico tiene una exactitud cercana al 90%. Los valores
         obtenidos se extrapolan basados en los parámetros leídos en el paciente y en conjunción
@@ -49,12 +49,12 @@ const services = [
         resultados inmediatos.`
     },
     {
-        name:"DESINTOXICACION IONICA.",
+        name:"DESINTOXICACIÓN IÓNICA.",
         photo:"https://i.postimg.cc/bwxQvddL/Captura-de-pantalla-2023-01-04-012630.png",
         description:``
     },
     {
-        name:"Metabolismo medico",
+        name:"Metabolismo médico",
         photo:"https://i.postimg.cc/sgdYy5fv/Captura-de-pantalla-2023-01-04-012658.png",
         description:`MEDINATURAL.VID les ofrece la mejor opción en nutrición, empleando la herbolaria y la
         jugoterapia como una herramienta muy importante en la prevención y tratamiento de

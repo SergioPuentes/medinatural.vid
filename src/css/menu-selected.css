@@ -3,6 +3,8 @@
     border-radius: 2rem;
     width: 95%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 #menu-selected{
     display: flex;
@@ -19,7 +21,7 @@
     margin: 4rem auto;
 }
 .item-info img{
-    width: 90%;
+    width: 100%;
     margin: 4rem auto 0 auto;
     max-width: 90rem;
 }
