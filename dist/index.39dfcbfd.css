@@ -21,16 +21,12 @@ body {
 }
 
 header {
-  width: 96%;
-  height: 9rem;
-  background-color: #b0dfcd;
-  border-radius: 2rem;
-  margin: 1rem auto 0;
+  width: 100%;
+  background-color: #afdecc;
 }
 
 .barra {
   justify-content: space-between;
-  padding: 0 1rem;
   display: flex;
 }
 
@@ -46,11 +42,13 @@ header {
 }
 
 .icon .logo {
-  width: 9.5rem;
+  width: 8rem;
 }
 
 nav {
-  height: 9rem;
+  width: 100%;
+  place-content: center;
+  display: grid;
 }
 
 nav ul {
@@ -90,12 +88,12 @@ ul a {
 
 @media (max-width: 1104px) {
   .menu-mobile {
-    margin: 2rem 2rem 2rem auto;
     display: block;
   }
 
   .menu-mobile img {
-    width: 4rem;
+    width: 3rem;
+    margin: 0 auto;
   }
 
   ul {
@@ -107,7 +105,6 @@ main {
   max-width: 100rem;
   width: 96%;
   text-align: center;
-  background-color: #b0dfcd;
   border-radius: 2rem;
   margin: 8rem auto;
 }
