@@ -1,7 +1,6 @@
 .menu-selected{
-    background-color:#B0DFCD;
     border-radius: 2rem;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -12,17 +11,15 @@
 .item-info{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     text-align: center;
     margin-bottom: 6rem;
-    background-color: #E2E2E2;
     border-radius: 2rem;
-    padding: 2rem;
     margin: 4rem auto;
 }
 .item-info img{
     width: 100%;
-    margin: 4rem auto 0 auto;
+    margin: 1rem auto 0 auto;
     max-width: 90rem;
 }
 .item-info h3{
@@ -31,7 +28,7 @@
 }
 .item-info p{
     font-size: 1.8rem;
-    padding: 2rem;
+   
     text-align: left;
 }
 .image-product{
@@ -71,9 +68,6 @@ iframe{
 .items{
     display: flex;
     flex-direction: column;
-}
-.icon img{
-    width: 10rem;
 }
 .icon p{
     text-align: center;

@@ -1500,8 +1500,8 @@ const returnItem = (data)=>{
         cuadrox = data.nombres;
         cuadroy = data.indicaciones;
         cuadro = `  <div class="cuadro">
-            <div class="cuadrox"><h2>Nombre:</h2> <br> <br>${cuadrox.join("<br><br>")}</div>
-            <div class="cuadroy"><h2>Indicación:</h2><br> <br>${cuadroy.join("<br><br>")}</div>
+            <div class="cuadrox cuadros"><h2>Nombre:</h2> <br> <br>${cuadrox.join("<br><br>")}</div>
+            <div class="cuadroy cuadros"><h2>Indicación:</h2><br> <br>${cuadroy.join("<br><br>")}</div>
             </div>`;
     } else cuadro = `<p>${data.description}</p>`;
     return `<${clasea} class="item-info ${data.class}">

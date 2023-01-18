@@ -15,14 +15,15 @@ html {
 body {
   min-height: 100%;
   width: 100%;
-  background-color: #e2e2e2;
+  background-color: #fff;
   flex-direction: column;
   display: flex;
 }
 
 header {
   width: 100%;
-  background-color: #afdecc;
+  max-height: 8rem;
+  background-color: #3f3;
 }
 
 .barra {
@@ -31,29 +32,28 @@ header {
 }
 
 .icon {
-  float: left;
-  width: 90%;
+  max-width: 15rem;
+  margin-right: 1rem;
   display: flex;
+}
+
+.icon img {
+  width: 8rem;
+  margin-right: -1rem;
 }
 
 .icon div {
   margin: auto 0;
   font-family: Satisfy, cursive;
-  font-size: 2.8rem;
-}
-
-<<<<<<< HEAD
-.icon .logo {
-  width: 8rem;
-=======
-.icon .label {
-  width: 100%;
-  max-width: 1rem;
->>>>>>> origin
+  font-size: 2.5rem;
 }
 
 nav {
   width: 100%;
+  display: grid;
+}
+
+nav label {
   place-content: center;
   display: grid;
 }
@@ -144,18 +144,18 @@ ul button li {
 
 @media (max-width: 998px) {
   .menu-mobile {
-<<<<<<< HEAD
-=======
-    width: 90%;
+    width: 100%;
     max-width: 5rem;
-    margin: 2rem;
->>>>>>> origin
     display: block;
   }
 
   .menu-mobile img {
-    width: 3rem;
+    width: 4rem;
     margin: 0 auto;
+  }
+
+  nav {
+    max-width: 7rem;
   }
 
   nav ul {
@@ -169,10 +169,10 @@ ul button li {
 
 main {
   max-width: 100rem;
-  width: 96%;
+  width: 100%;
   text-align: center;
   border-radius: 2rem;
-  margin: 8rem auto;
+  margin: 4rem auto;
 }
 
 section h1 {
@@ -185,28 +185,30 @@ section h1 {
 }
 
 section p {
+  width: 100%;
   color: #003c4d;
   margin-bottom: 4rem;
-  font-size: 1.5rem;
-  line-height: 30px;
+  padding: 0 1rem;
+  font-size: 1.4rem;
+  line-height: 20px;
 }
 
 .img-welcome {
-  max-width: 100%;
+  width: 100%;
   margin-bottom: 3rem;
 }
 
 .view-sedes {
   color: #fff;
-  width: 45%;
-  max-width: 45rem;
-  background-color: #00c18a;
-  border: 1px solid #00c18a;
-  border-radius: 2rem;
+  width: 60%;
+  max-width: 30rem;
+  background-color: #3f3;
+  border: none;
+  border-radius: 1rem;
   margin-bottom: 4rem;
   padding: 1.2rem;
   font-family: Anton, sans-serif;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 100;
 }
 
@@ -221,8 +223,7 @@ section p {
 }
 
 .menu-selected {
-  width: 95%;
-  background-color: #b0dfcd;
+  width: 100%;
   border-radius: 2rem;
   flex-direction: column;
   margin: 0 auto;
@@ -234,20 +235,18 @@ section p {
 }
 
 .item-info {
-  width: 80%;
+  width: 90%;
   text-align: center;
-  background-color: #e2e2e2;
   border-radius: 2rem;
   flex-direction: column;
   margin: 4rem auto;
-  padding: 2rem;
   display: flex;
 }
 
 .item-info img {
   width: 100%;
   max-width: 90rem;
-  margin: 4rem auto 0;
+  margin: 1rem auto 0;
 }
 
 .item-info h3 {
@@ -257,7 +256,6 @@ section p {
 
 .item-info p {
   text-align: left;
-  padding: 2rem;
   font-size: 1.8rem;
 }
 
@@ -297,10 +295,6 @@ iframe {
   display: flex;
 }
 
-.icon img {
-  width: 10rem;
-}
-
 .icon p {
   text-align: center;
   color: #003c4d;
@@ -309,7 +303,7 @@ iframe {
 .footer {
   width: 100%;
   height: 12rem;
-  background-color: #b0dfcd;
+  background-color: #3f3;
   display: flex;
 }
 
