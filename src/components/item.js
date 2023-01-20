@@ -8,7 +8,7 @@ const returnItem = (data)=>{
     let cuadro
     let clase = "div"
     let clasea = "div"
-    if(data.class){
+    if(data.class == "item-contact"){
         clase = "a"
         clasea= `a href="${data.href}"`
     }

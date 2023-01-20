@@ -583,26 +583,31 @@ button11.addEventListener("click", async ()=>{
     await elegir("1");
     await (0, _indexDefault.default)();
     await scroll();
+    document.getElementById("btn-menu").checked = false;
 });
 button22.addEventListener("click", async ()=>{
     await elegir("2");
     await (0, _indexDefault.default)();
     await scroll();
+    document.getElementById("btn-menu").checked = false;
 });
 button33.addEventListener("click", async ()=>{
     await elegir("3");
     await (0, _indexDefault.default)();
     await scroll();
+    document.getElementById("btn-menu").checked = false;
 });
 button44.addEventListener("click", async ()=>{
     await elegir("4");
     await (0, _indexDefault.default)();
     await scroll();
+    document.getElementById("btn-menu").checked = false;
 });
 button66.addEventListener("click", async ()=>{
     await elegir("6");
     await (0, _indexDefault.default)();
     await scroll();
+    document.getElementById("btn-menu").checked = false;
 });
 function elegir(a) {
     let targetURL = "#menu-selected" + a;
@@ -756,391 +761,10 @@ exports.default = menu;
 },{"../products/productos":"ceCzh","../products/sede":"jfqGO","../products/servicios":"lye8P","../products/homeopatia":"ijUHX","../components/item":"klNFr","../utils/getHash":"cBXxo","../products/herbalfruit":"fpzWO","../products/contacto":"d6ZcD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ceCzh":[function(require,module,exports) {
 const products = [
     {
-        name: "TRATAMIENTO FITOTERAP\xc9UTICO P\xc1NCREAS:",
-        photo: "https://i.postimg.cc/VkkG0xN8/pancreas.png",
-        description: `
-    Diseñado para ayudar al
-    organismo a convertir los
-    alimentos en energía
-    (deficiencias enzimáticas
-    y endocrinas), en donde
-    el páncreas es incapaz de
-    producir insulina; regular
-    la glucosa en la sangre
-    (niveles de azúcar); el
-    poder de las plantas y su
-    uso medicinal no solo son
-    capaces de prevenir sino
-    también de curar, es un
-    muy buen coadyuvante
-    natural en el tratamiento
-
-    de la
-    Obesidad, Diabetes,
-    prediabetes, Diabetes
-    mellitus tipo1, Diabetes
-
-    tipo 2. `
-    },
-    {
-        name: "TRATAMIENTO FITOTERAP\xc9UTICO COLON:",
-        photo: "https://i.postimg.cc/qvJYXtjW/colon.png",
-        description: `Está elaborado con la
-    mejor calidad de plantas
-    medicinales capaces de
-    corregir y curar
-    trastornos causados por
-    daños en la flora
-    intestinal, restaurándola
-    y fortaleciendo su
-    sistema inmunológico, ya
-    que este medicamento
-    ayuda a evacuar los
-    desechos del intestino
-    mejorando no solo la
-    eliminación de las heces,
-    sino el aprovechamiento
-    de nutrientes,
-    garantizando una mejor
-    digestión, coadyuvante
-    natural en tratamiento en
-    trastornos intestinales,
-    Principalmente en casos
-    de colon perezoso,
-    estreñimiento crónico,
-    
-    diarreas, hemorroides y flatulencia.
-    Recomendación: Evitar el consumo de laxantes.`
-    },
-    {
-        name: "TRATAMIENTO FITOTERAP\xc9UTICO DETOX:",
-        photo: "https://i.postimg.cc/Gp95VW0Q/detox.png",
-        description: `Nuestro organismo suele
-    acumular muchos
-    desechos tóxicos como
-    son: metales pesados
-    (plomo, mercurio,
-    antimonio, arsénico etc.)
-    toxinas como residuos de
-    pesticidas tóxicos,
-    polución, bebidas
-    carbonadas ,
-    electromagnética entre
-    muchas otras , el cuidar y
-    mantener una buena salud
-    depende de eliminar de
-    nuestro cuerpo las fuentes
-    de enfermedad, un cuerpo
-    libre de toxinas es capaz
-    de regenerarse y curarse
-    así mismo, por eso el
-    medicamento HERBAL
-    DETOX está diseñado
-    para desintoxicar su
-    cuerpo por completo de
-    
-    manera segura y natural.
-    
-    A que personas se les recomienda esta desintoxicación: personas que padecen de
-    infecciones urinarias, trastornos gastrointestinales, hormonales, circulatorios,
-    manchas en la piel y acné, afecciones respiratorias, obesidad; de cierta manera
-    todas las personas necesitamos eliminar de nuestro cuerpo las causas de
-    
-    enfermedad.
-    
-    Que personas no pueden consumir HERBAL DETOX, personas con una baja
-    
-    inmunidad y/o muy descompensadas nutricionalmente.`
-    },
-    {
-        name: "TRATAMIENTO FITOTERAP\xc9UTICO RI\xd1\xd3N:",
-        photo: "https://i.postimg.cc/VkZ7qKSb/ri-on.png",
-        description: `Su fórmula Fito
-    terapéutica fue
-    diseñada para
-    mantener sano
-    nuestro sistema
-    urinario eliminando
-    arenilla al riñón, capaz
-    de romper y evacuar
-    los cálculos renales
-    que puedan afectar el
-    buen funcionamiento
-    de las nefronas,
-    evitando la retención
-    de líquidos y
-    previniendo
-    infecciones urinarias,
-    en mujeres evita las
-    infecciones y daños
-    en la vejiga al igual
-    que en el hombre es
-    muy eficaz en el tratamiento y cuidado de la próstata. Coadyuvante
-    
-    natural en el tratamiento del sistema urinario.
-    No apto para personas en tratamiento con diálisis.`
-    },
-    {
-        name: "TRATAMIENTO FITOTERAP\xc9UTICO MUCOSA:",
-        photo: "https://i.postimg.cc/PxwFr15v/mucosa.png",
-        description: `Fue creado para el
-    tratamiento preventivo y
-    curativo en enfermedades
-    que atacan nuestro sistema
-    digestivo.
-    EL cual está dotado con
-    mucosa digestiva
-    asegurando la homeostasis
-    interna, digestión, absorción
-    de nutrientes, transporte,
-    secreción de agua y
-    electrolitos.
-    La mucosa gastrointestinal:
-    esta revestida de células
-    epiteliales que establecen
-    una barrera efectiva,
-    mediante uniones
-    intercelulares entre el medio
-    interno y medio externo,
-    impidiendo el paso de
-    sustancias potencialmente
-    nocivas.
-    Coadyuvante natural en el
-    tratamiento de gastritis,
-    hernia hiatal, reflujo, acidez,
-    colon irritable y demás
-    enfermedades que puedan afectar el buen funcionamiento del sistema
-    
-    gastrointestinal.`
-    },
-    {
-        name: "TRATAMIENTO FITOTERAP\xc9UTICO CART\xcdLAGO:",
-        photo: "https://i.postimg.cc/L5FQqhJC/cartilago.png",
-        description: `nuestro sistema articular, se
-    deteriora no solo con la
-    edad, las malas posturas, el
-    esfuerzo físico entre muchas
-    otras causas; a menudo
-    ocurre una pérdida del
-    líquido sinovial, un líquido
-    espeso que se encuentra en
-    el interior de la articulación y
-    que tiene la función de
-    amortiguar los extremos de
-    los huesos y reducir la
-    fricción entre las
-    articulaciones, el
-    medicamento herbal
-    cartílago fue diseñado para
-    mantener su sistema
-    articular sano, gracias al
-    poder curativo de las plantas
-    medicinales capaces de
-    eliminar de sus sistemas las
-    fuentes directas que
-    originan los trastornos
-    articulares.
-    Coadyuvante natural en el
-    tratamiento de artrosis,
-    artritis, reumatismo, gota, dolor e inflamación articular, entre muchas otras.`
-    },
-    {
-        name: "TRATAMIENTO FITOTERAP\xc9UTICO H\xcdGADO:",
-        photo: "https://i.postimg.cc/0yV4t84j/higado.png",
-        description: `Elaborado con las
-    mejores plantas
-    medicinales capaces
-    de curar y sanar de
-    manera rápida, segura
-    y eficaz, está diseñado
-    para mejorar el
-    metabolismo en el
-    almacenamiento de
-    vitaminas y minerales,
-    liberación de glucosa,
-    digestión de las grasas,
-    producción de
-    colesterol, proteínas y
-    la eliminación de
-    toxinas.
-    Es recomendable para
-    todo tipo de personas,
-    coadyuvante natural en
-    casos de obesidad,
-    diabetes, hipertensión, triglicéridos o colesterol, esteatosis hepática,
-    
-    hepatitis, cirrosis Y hepatomegalia.
-    
-    El secreto de gozar de una buena salud, es un hígado sano.`
-    },
-    {
-        name: "TRATAMIENTO FITOTERAP\xc9UTICO OVARIO:",
-        photo: "https://i.postimg.cc/CMb63C2W/ovario.png",
-        description: `Este medicamento fue
-    diseñado especialmente
-    para la mujer en el
-    cuidado preventivo y
-    curativo en enfermedades
-    ginecológicas que
-    puedan causar daños y/o
-    trastornos en el buen
-    funcionamiento de
-    ovarios, útero, cuello
-    uterino, actúa como
-    regulador hormonal de
-    manera natural, segura y
-    
-    eficaz.
-    Medicamento herbal
-    útero: coadyuvante
-    natural en el tratamiento
-    ginecológico: ovarios
-    poliquísticos, miomatosis,
-    inflamación de cuello
-    uterino, trastornos de la hormona beta (Ciclo menstrual), vaginitis,
-    
-    herpes, papiloma humano, etc.`
-    },
-    {
-        name: "MEDICAMENTO HERBAL EQUINACEA :",
-        photo: "https://i.postimg.cc/Vv9GX1MY/equinacea.png",
-        description: `Actúa de manera
-    natural, elevando
-    las defensas y
-    fortaleciendo el
-    sistema
-    inmunológico;
-    Nuestro sistema
-    inmunológico está
-    diseñado para
-    defendernos de los
-    agentes patógenos
-    que nos enferman,
-    como lo son:
-    hongos, bacterias,
-    parásitos y toxinas
-    que pueden afectar
-    el buen desempeño
-    de nuestros
-    órganos,
-    especialmente
-    diseñado para
-    aquellas personas
-    que padecen
-    trastornos de baja inmunidad. Muy efectivo coadyuvante natural en el
-    
-    tratamiento de enfermedades degenerativas.`
-    },
-    {
-        name: "TRATAMIENTO FITOTERAP\xc9UTICO ARTERIA C:",
-        photo: "https://i.postimg.cc/kMSknP2Y/arteriac.png",
-        description: `Nuestro sistema
-    circulatorio lleva
-    oxígeno, nutrientes y
-    hormonas a las células,
-    elimina el producto de
-    los desechos, como el
-    dióxido de carbono; por
-    ello es tan importante
-    cuidarlo de forma
-    regular, el uso de las
-    plantas medicinales y
-    sus efectos curativos
-    garantizan su buen
-    funcionamiento, ya que
-    son muchas las
-    enfermedades que lo
-    atacan de forma
-    permanente, los malos
-    hábitos de vida.
-    La prevención es
-    imprescindible, de esta manera protegerá, cuidara su vida y la de su
-    corazón, coadyuvante natural en tratamiento arterial y del sistema
-    
-    cardiovascular.`
-    },
-    {
-        name: "TRATAMIENTO FITOTERAP\xc9UTICO ARTERIA G:",
-        photo: "https://i.postimg.cc/Fsg8Lbgj/arteriag.png",
-        description: `Las grasas no fluyen de manera ágil en el sistema circulatorio, por lo
-    que no se lleva acabo
-    adecuadamente la
-    oxigenación del cuerpo y
-    puede llevar a obstruir
-    venas y arterias provocando
-    el aumento del colesterol y
-    los triglicéridos, riesgo del
-    incremento de la tensión
-    arterial, trombos y padecer
-    una enfermedad
-    cardiovascular. Las plantas
-    medicinales y su consumo
-    diariamente han demostrado
-    ser muy eficaces en el
-    tratamiento preventivo y
-    curativo de nuestro sistema
-    circulatorio, coadyuvante
-    natural en el tratamiento de
-    trombos, colesterol o
-    triglicéridos elevados en la
-    
-    sangre.`
-    },
-    {
-        name: "TRATAMIENTO FITOTERAP\xc9UTICO PULM\xd3N:",
-        photo: "https://i.postimg.cc/FsZCRrNp/pulmon.png",
-        description: `Los pulmones nos permiten
-    respirar la entrada de
-    oxígeno a nuestros cuerpos y
-    expulsar el dióxido de
-    carbono, el cual es un
-    desecho producido por el
-    cuerpo. La naturaleza fue
-    dotada con una gran
-    variedad de plantas
-    medicinales que aportan al
-    cuerpo humano el poder de
-    sanar; no maltrate su
-    organismo, trátelo con
-    respeto y de forma natural,
-    para eso fue creada la
-    medicina herbal.
-    Las enfermedades del
-    aparato respiratorio son
-    causales del deterioro de nuestra salud y ponen en riesgo nuestra
-    vida, el medicamento herbal pulmón es muy buen coadyuvante natural
-    en el tratamiento preventivo y curativo de las vías respiratorias como:
-    
-    asma, bronquitis etc.`
-    },
-    {
-        name: "TRATAMIENTO FITOTERAP\xc9UTICO NEURO:",
-        photo: "https://i.postimg.cc/N0VzcdBw/neuro.png",
-        description: `Todas las personas
-    hemos pasado por algún
-    trastorno del sistema
-    nervioso, bien sea por la
-    pérdida de un familiar, la
-    ruptura de una relación
-    sentimental, la situación
-    económica, la familia, el
-    trabajo; todo desarreglo de
-    la alud suele estar
-    precedido por un periodo
-    de fuerte stress, la
-    ansiedad, la depresión, la
-    baja autoestima, la ira, la
-    falta de sueño, etc. El
-    medicamento herbal
-    Neuro es Muy buen
-    Coadyuvante natural en
-    mejorar y cuidar la salud
-    
-    mental.
-    Contraindicado en
-    personas bajo tratamiento
-    
-    con medicamentos psiquiátricos.`
+        name: "Medicina Herbal y Fitoterapia",
+        source: `<iframe src="https://drive.google.com/file/d/10FN5QzDspEb4tGIY3CFzoxuE2_mykTyv/preview" width="640" height="480" allow="autoplay"></iframe>`,
+        description: "",
+        class: "pdf"
     }
 ];
 module.exports = products;
@@ -1178,95 +802,10 @@ module.exports = sede;
 },{}],"lye8P":[function(require,module,exports) {
 const services = [
     {
-        name: "BIOMAGNETISMO M\xc9DICO",
-        photo: "https://i.postimg.cc/9M8PjSzh/Captura-de-pantalla-2023-01-04-012335.png",
-        description: `¿Qué es y para qué sirve el biomagnetismo?
-        El biomagnetismo médico es una práctica médica alternativa integral en la que se usa el
-        conocimiento del cuerpo humano y sus campos magnéticos para el tratamiento de todo
-        tipo de condiciones y lograr el equilibrio funcional del cuerpo. Está indicado para todas
-        las enfermedades o malestares.`
-    },
-    {
-        name: "Valoraci\xf3n emocional y f\xedsica con bioplasma",
-        photo: "https://i.postimg.cc/MKj7h9SC/Captura-de-pantalla-2023-01-04-012403.png",
-        description: `Sistema de diagnóstico terapéutico medicinal, que estudia, detecta, clasifica y corrige las
-        alteraciones del pH mediante el uso del Par Biomagnético”. El par Biomagnético
-        corresponde a zonas del cuerpo que están hermanados y con polaridades distintas (carga
-        positiva y negativa que permite un equilibrio) La terapia logra identificar el padecimiento
-        de ciertos males provocados por virus, bacterias, parásitos y hongos, como también de
-        disfunciones glandulares, al medir cualitativamente la alteración del Potencial de
-        Hidrógeno, donde proliferan los organismos patógenos que atacan nuestro cuerpo.
-        Los imanes colocados en el cuerpo generan una interrupción de la retroalimentación de
-        energía que hay entre bacterias y virus. Con esto entonces, se corrige la alteración del pH
-        y de las zonas que estaban desequilibradas energéticamente en el organismo. Luego de
-        este proceso, los microrganismos pierden su energía y terminan siendo eliminados. En
-        
-        relación a los virus, el cambio del pH obstaculiza su reproducción y quedan debilitados o
-        destruidos por el sistema inmunológico.
-        Función de análisis por espectrometría es una técnica de análisis espectral basada en la
-        dispersión de energía. El aparato realiza un análisis y obtiene imágenes de todo el cuerpo
-        o del órgano en estudio.
-        El dispositivo Bioplasm es una de las herramientas de diagnóstico de salud energética
-        Evalúa la salud de los órganos internos al monitorear sus frecuencias de energía. Los
-        patrones de energía se proyectan a través de auriculares a un dispositivo basado en
-        computadora, que procesa las lecturas y las muestra como números en las imágenes de
-        los órganos relevantes. Los números están relacionados con una forma y color en
-        particular. Da Metaterapia a través de la bioresonancia corrige los puntos de entropía, fortaleciendo la energía biológica.`
-    },
-    {
-        name: "Valoraci\xf3n con Scanner Biocu\xe1ntico",
-        photo: "https://i.postimg.cc/yx2FDZFp/Captura-de-pantalla-2023-01-04-012600.png",
-        description: `El sistema cuántico Bioeléctrico tiene una exactitud cercana al 90%. Los valores
-        obtenidos se extrapolan basados en los parámetros leídos en el paciente y en conjunción
-        con los datos como peso, talla, edad, y sexo. . Sin embargo al poder medir los campos
-        generados por cada órgano del cuerpo se ha podido establecer las diferentes condiciones
-        que nos permiten establecer estados de enfermedad, pseudo enfermedad y estado de
-        salud.
-        Este examen nos permite identificar por medio del campo magnético corporal cualquier
-        patología o enfermedad que el paciente este presentando, arrojando más de 180
-        resultados inmediatos.`
-    },
-    {
-        name: "DESINTOXICACI\xd3N I\xd3NICA.",
-        photo: "https://i.postimg.cc/bwxQvddL/Captura-de-pantalla-2023-01-04-012630.png",
-        description: ``
-    },
-    {
-        name: "Metabolismo m\xe9dico",
-        photo: "https://i.postimg.cc/sgdYy5fv/Captura-de-pantalla-2023-01-04-012658.png",
-        description: `MEDINATURAL.VID les ofrece la mejor opción en nutrición, empleando la herbolaria y la
-        jugoterapia como una herramienta muy importante en la prevención y tratamiento de
-        enfermedades como; La obesidad: (enfermedades cardiovasculares, cerebrovasculares,
-        hipertensión arterial, venas varices, hemorroides) etc. causas: daño hepato-biliar, hepato-
-        pancreatico y hepatorrenal, entre muchas otras; como el mal metabolismo de grasas,
-        enzimas y/o de la glándula tiroides etc.`
-    },
-    {
-        name: "Medicina herbal",
-        photo: "https://i.postimg.cc/8kYdKqqd/Captura-de-pantalla-2023-01-04-012722.png",
-        description: `La nutrición es principalmente el aprovechamiento de los nutrientes, manteniendo el
-        equilibrio homeostático del organismo a nivel molecular y macro-sistémico.
-        Los procesos macro sistémicos están relacionados a la absorción, digestión, metabolismo
-        y eliminación. Los procesos moleculares o micro sistémicos están relacionados al
-        equilibrio de elementos como enzimas, vitaminas, minerales, aminoácidos, glucosa,
-        transportadores químicos, mediadores bioquímicos, hormonas, etc.
-        Baja productividad, absentismo, cansancio, sobrepeso, son sólo algunos de los
-        problemas derivados por la mala alimentación por causa de no contar con el tiempo
-        suficiente o simplemente por hacer una mala elección en su dieta diaria.
-        
-        La herbolaria se asocia a la fitoterapia; el uso de plantas para prevenir, aliviar o curar
-        enfermedades y otros trastornos de la salud, Se trata de una terapia natural que recurre a
-        las plantas, el uso de productos de origen vegetal para la prevención, la curación o el
-        alivio de una amplia variedad de síntomas y enfermedades.
-        La fitoterapia ha resultado ser más útil que la medicina moderna para el tratamiento de
-        ciertas enfermedades crónicas, con menos efecto secundario y más económico.
-        Las plantas medicinales y aromáticas juegan un papel importante en el cuidado de la
-        salud de las personas
-        Cuando realizamos jugoterapia, los órganos encargados de la desintoxicación, como la
-        piel, los pulmones, los riñones y el hígado trabajan mucho más rápido, permitiendo que
-        los deshechos y las toxinas acumuladas sean eliminadas sin ningún problema. Esta es
-        una buena manera de permitir que el sistema digestivo tenga un buen descanso.
-        `
+        name: "Servicios",
+        source: `<iframe src="https://drive.google.com/file/d/1Invflicpp4MFEW8egj19B5iGudaSzEmB/preview" width="640" height="480" allow="autoplay"></iframe>`,
+        description: "",
+        class: "pdf"
     }
 ];
 module.exports = services;
@@ -1274,208 +813,10 @@ module.exports = services;
 },{}],"ijUHX":[function(require,module,exports) {
 const homeopatia = [
     {
-        name: "Gl\xf3bulos Frasco x10gr",
-        photo: "https://i.postimg.cc/8P01rbfz/Captura-de-pantalla-2023-01-04-011531.png",
-        nombres: [
-            `Anacardium occidentalis`,
-            `Berberis vulgaris`,
-            "Carbo vegetabilis",
-            "Chelidonium majus",
-            "Echinacea",
-            "Ledum palustre",
-            "Lycopodium clavatum",
-            "Nux v\xf3mica",
-            "Phytolacca decandra",
-            "Rawolfia",
-            "Spigelia anthelmia"
-        ],
-        indicaciones: [
-            "Cerebro",
-            "Trastornos hepato-urinarios",
-            "Gastritis",
-            "Colelitiasis",
-            "angustifolia Defensas",
-            "Artrosis",
-            "Trastornos hep\xe1ticos",
-            "Trastornos gastrointestinales",
-            "Sistema inmunol\xf3gico",
-            "Tensi\xf3n alta",
-            "Cef\xe1leas"
-        ]
-    },
-    {
-        name: "Triturados Frasco x60gr",
-        photo: "https://i.postimg.cc/25pr08wp/Captura-de-pantalla-2023-01-04-011550.png",
-        nombres: [
-            "Arteria",
-            "Bronquio",
-            "Cart\xedlago",
-            "Cerebelo Cinetosis",
-            "Coraz\xf3n",
-            "Higado",
-            "Hip\xf3fisis anterior",
-            "Hipot\xe1lamo",
-            "Hueso",
-            "M\xe9dula \xf3sea",
-            "Mucosa g\xe1strica",
-            "Mucosa nasal",
-            "Nervio \xf3ptico",
-            "Ojo total",
-            "Ovario",
-            "P\xe1ncreas",
-            "Pr\xf3stata",
-            "Pulm\xf3n",
-            "Retina",
-            "Ri\xf1\xf3n",
-            "Tiroides",
-            "Ur\xe9ter",
-            "\xdatero"
-        ],
-        indicaciones: [
-            "Hipertensi\xf3n arterial",
-            "Asma bronquial",
-            "Regenerador \xf3seo",
-            "v\xe9rtigo",
-            "Insuficiencia card\xedaca",
-            "Hepatopat\xedas",
-            "Trastornos endocrinos",
-            "Deficiencia del crecimiento",
-            "Descalcificaci\xf3n",
-            "Anemia, leucemia",
-            "\xdalcera p\xe9ptica, g\xe1strica y duidenal.",
-            "Rinitis cr\xf3nica",
-            "Neuritis \xf3ptica",
-            "Trastornos de la visi\xf3n",
-            "Disfunci\xf3n ov\xe1rica",
-            "Diabetes mellitus",
-            "Prostatitis",
-            "Enfisema pulmonar",
-            "Degeneraci\xf3n de la retina",
-            "Insuficiencia renal",
-            "Trastornos de la tiroides",
-            "Ureteritis",
-            "Miomatosis uterina"
-        ]
-    },
-    {
-        name: "Ampollas bebibles Caja por 12 unidades",
-        photo: "https://i.postimg.cc/sXsyR6qw/Captura-de-pantalla-2023-01-04-011611.png",
-        nombres: [
-            "Bryonia alba",
-            "Carduus marianus",
-            "Echinacea angustifolia",
-            "Hamamelis virginiana",
-            "Lentinus edodes",
-            "Lycopus virginica",
-            "Robinia pseudoacacia",
-            "Sabal serrulata",
-            "Sticta pulmonaria",
-            "Cloruro de magnesio"
-        ],
-        indicaciones: [
-            "Sistema osteoarticular",
-            "Afecciones hep\xe1ticas",
-            "Sistema inmunol\xf3gico",
-            "Sistema circulatorio",
-            "Colesterol",
-            "Sistema cardiovascular",
-            "Sistema gastrointestinal",
-            "Pr\xf3stata",
-            "Sistema respiratorio",
-            "Equilibrante org\xe1nico"
-        ]
-    },
-    {
-        name: "Jarabes Frasco x240ml",
-        photo: "https://i.postimg.cc/QdKjgWck/Captura-de-pantalla-2023-01-04-011626.png",
-        nombres: [
-            "Calomel",
-            "Cucurbita pepo",
-            "Drosera rotundifolia",
-            "Ginkgo biloba",
-            "Hypericum perforatum",
-            "Peumus boldus",
-            "Zarzaparilla",
-            "Plata coloidal"
-        ],
-        indicaciones: [
-            "Gastritis",
-            "Par\xe1sitos",
-            "Tos",
-            "Memoria",
-            "Nervios",
-            "Drenador hep\xe1tico",
-            "Depurativo",
-            "Bacterias y antibi\xf3tico natural"
-        ]
-    },
-    {
-        name: "Gotas Frasco x30ml",
-        photo: "https://i.postimg.cc/bvQ8WcCZ/Captura-de-pantalla-2023-01-04-011647.png",
-        nombres: [
-            "Aesculus",
-            "Baptisia tinctoria",
-            "Carduus marianus",
-            "Chelidonium majus",
-            "Ginseng",
-            "Hamamelis virginiana",
-            "Phosphoricum acidum",
-            "Pinus silvestris",
-            "Populus candicans",
-            "Sabal serrulata",
-            "Scrophularia",
-            "Senecio fuchsii",
-            "Solidago virgaurea",
-            "Vipera berus",
-            "Adonis vernalis",
-            "Alumen",
-            "Argentum nitricum",
-            "Aurum metallicum",
-            "Ferrum metallicum",
-            "Fumaria officinalis",
-            "Hedeoma",
-            "Humulus lupulus",
-            "Leptandra virginica",
-            "Marsdenia condurango",
-            "Mercurius solubilis",
-            "Myristica sebifera",
-            "Sabadilla officinalis",
-            "Silicea Drenador",
-            "Uva ursi",
-            "Oligoelementos"
-        ],
-        indicaciones: [
-            "hippocastanum Circulaci\xf3n",
-            "Bloqueos enzim\xe1ticos",
-            "Afecciones hepatobiliares",
-            "Colelitiasis",
-            "Revitalizante",
-            "Congestiones venosas",
-            "Sistema nervioso",
-            "Linfatismos",
-            "Prostatitis",
-            "Adenoma prost\xe1tico",
-            "Sistemas enzim\xe1ticos",
-            "Trastornos menstruales",
-            "Drenador renal",
-            "Trastornos circulatorio",
-            "Tiroides",
-            "Estre\xf1imiento",
-            "Afecciones g\xe1strico-duodenales",
-            "Arterioesclerosis",
-            "Anemia",
-            "Drenador general",
-            "Acido \xfarico",
-            "Insomio",
-            "Hepatitis",
-            "C\xe1ncer",
-            "Afecciones garganta",
-            "Miomas (quistes)",
-            "Alergias",
-            "linf\xe1tico",
-            "Vejiga",
-            "todos en general."
-        ]
+        name: "Homeopat\xeda",
+        source: `<iframe src="https://drive.google.com/file/d/12Ns0l1fR9kK5CqyN6SWRUpThrJEISnq6/preview" width="640" height="480" allow="autoplay"></iframe>`,
+        description: "",
+        class: "pdf"
     }
 ];
 module.exports = homeopatia;
@@ -1490,7 +831,7 @@ const returnItem = (data)=>{
     let cuadro;
     let clase = "div";
     let clasea = "div";
-    if (data.class) {
+    if (data.class == "item-contact") {
         clase = "a";
         clasea = `a href="${data.href}"`;
     }
@@ -1534,28 +875,28 @@ const contacto = [
         name: "Whatsapp",
         description: "\xa1Haz click para escribirnos por Whatsapp!",
         photo: "https://cdn-icons-png.flaticon.com/128/733/733641.png",
-        class: "icon",
+        class: "item-contact",
         href: "https://api.whatsapp.com/send?phone=+573132381049&text=Hola,%20estoy%20interesado%20en%20mas%20informaci%C3%B3n%20respecto:"
     },
     {
         name: "Facebook",
         description: "\xa1Haz click para escribirnos por Facebook!",
         photo: "https://cdn-icons-png.flaticon.com/128/1384/1384005.png",
-        class: "icon",
+        class: "item-contact",
         href: "https://www.facebook.com/profile.php?id=100087411810135&mibextid=ZbWKwL"
     },
     {
         name: "Telefono",
         description: "LLamanos 3132381049",
         photo: "https://cdn-icons-png.flaticon.com/512/2354/2354127.png",
-        class: "icon",
+        class: "item-contact",
         href: "tel:+3132381049"
     },
     {
         name: "Estamos ubicados en San Gil-Santander",
         description: "Cra 9 #9-35 Frente a la fiscalia municipal",
         source: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.7481161943338!2d-73.13279568255615!3d6.553450899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e69c7262194e579%3A0x254a44ac47295636!2sCra.%209%20%239-35%2C%20San%20Gil%2C%20Santander!5e0!3m2!1ses!2sco!4v1673370973047!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
-        class: "icon"
+        class: "item-contact"
     }
 ];
 module.exports = contacto;

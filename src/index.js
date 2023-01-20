@@ -50,26 +50,31 @@ button11.addEventListener("click", async()=>{
     await elegir("1")
     await router()
     await scroll()
+    document.getElementById("btn-menu").checked = false
 })
 button22.addEventListener("click", async()=>{
     await elegir("2")
     await router()
     await scroll()
+    document.getElementById("btn-menu").checked = false
 })
 button33.addEventListener("click", async()=>{
     await elegir("3")
     await router()
     await scroll()
+    document.getElementById("btn-menu").checked = false
 })
 button44.addEventListener("click", async()=>{
     await elegir("4")
     await router()
     await scroll()
+    document.getElementById("btn-menu").checked = false
 })
 button66.addEventListener("click", async()=>{
     await elegir("6")
     await router()
     await scroll()
+    document.getElementById("btn-menu").checked = false
 })
 
 

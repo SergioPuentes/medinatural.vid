@@ -1,6 +1,6 @@
 4605
 70/home/sergioasusport/proyectos/medinatural.vid/src/utils/getProduct.js1673411404073160600 0
-72/home/sergioasusport/proyectos/medinatural.vid/src/products/productos.js1673835549788639400 0
+72/home/sergioasusport/proyectos/medinatural.vid/src/products/productos.js1674227548380131500 0
 64/home/sergioasusport/proyectos/medinatural.vid/src/css/index.css1673863497184440400 0
 65/home/sergioasusport/proyectos/medinatural.vid/src/css/footer.css1674003181874243400 0
 66/home/sergioasusport/proyectos/medinatural.vid/src/css/buttons.css1673866211281406000 0
@@ -935,7 +935,7 @@
 94/home/sergioasusport/proyectos/medinatural.vid/node_modules/css-tree/lib/syntax/scope/index.js1673039285204748700 0
 96/home/sergioasusport/proyectos/medinatural.vid/node_modules/css-tree/lib/syntax/scope/default.js1673039285200746800 0
 97/home/sergioasusport/proyectos/medinatural.vid/node_modules/css-tree/lib/syntax/pseudo/slotted.js1673039285193747500 0
-57/home/sergioasusport/proyectos/medinatural.vid/src/assets1673039290743725900 1
+57/home/sergioasusport/proyectos/medinatural.vid/src/assets1674155767594394900 1
 97/home/sergioasusport/proyectos/medinatural.vid/node_modules/css-tree/lib/syntax/pseudo/matches.js1673039285174919400 0
 73/home/sergioasusport/proyectos/medinatural.vid/node_modules/source-map-js1673039289314299800 1
 94/home/sergioasusport/proyectos/medinatural.vid/node_modules/css-tree/lib/syntax/pseudo/lang.js1673039285170981500 0
@@ -1482,7 +1482,7 @@
 78/home/sergioasusport/proyectos/medinatural.vid/node_modules/css-tree/lib/lexer1673039284905317400 1
 78/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/runtime-js1673039274182516300 1
 87/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/runtime-browser-hmr1673039273975058400 1
-62/home/sergioasusport/proyectos/medinatural.vid/src/css/nav.css1674003554417726000 0
+62/home/sergioasusport/proyectos/medinatural.vid/src/css/nav.css1674234707539338500 0
 88/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/resolver-default/src1673039273941521900 1
 104/home/sergioasusport/proyectos/medinatural.vid/node_modules/caniuse-lite/data/features/css-dir-pseudo.js1673039280714984700 0
 79/home/sergioasusport/proyectos/medinatural.vid/node_modules/cosmiconfig/LICENSE1673039284548790100 0
@@ -1952,7 +1952,7 @@
 63/home/sergioasusport/proyectos/medinatural.vid/src/css/main.css1673866468881674700 0
 92/home/sergioasusport/proyectos/medinatural.vid/node_modules/.bin/download-msgpackr-prebuilds1673039269545688800 0
 112/home/sergioasusport/proyectos/medinatural.vid/node_modules/caniuse-lite/data/features/element-scroll-methods.js1673039281401729100 0
-70/home/sergioasusport/proyectos/medinatural.vid/dist/index.39dfcbfd.css1674004100943564400 0
+70/home/sergioasusport/proyectos/medinatural.vid/dist/index.39dfcbfd.css1674234876721637100 0
 83/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/fs/src/types.js1673039271722021200 0
 101/home/sergioasusport/proyectos/medinatural.vid/node_modules/caniuse-lite/data/features/geolocation.js1673039281626093000 0
 87/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/fs/src/OverlayFS.js1673039271722021200 0
@@ -2017,7 +2017,7 @@
 119/home/sergioasusport/proyectos/medinatural.vid/node_modules/@jridgewell/sourcemap-codec/dist/types/sourcemap-codec.d.ts1673039269970383600 0
 90/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/core/src/Dependency.js1673039270775102900 0
 104/home/sergioasusport/proyectos/medinatural.vid/node_modules/@msgpackr-extract/msgpackr-extract-linux-x641673039270316025600 1
-69/home/sergioasusport/proyectos/medinatural.vid/dist/index.975ef6c8.js1674004018654630300 0
+69/home/sergioasusport/proyectos/medinatural.vid/dist/index.975ef6c8.js1674234760395949800 0
 108/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/node-resolver-core/test/fixture/packages1673039272350980300 1
 95/home/sergioasusport/proyectos/medinatural.vid/node_modules/svgo/plugins/cleanupListOfValues.js1673039289604563600 0
 116/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/foo1673039272068411500 1
@@ -2107,7 +2107,7 @@
 99/home/sergioasusport/proyectos/medinatural.vid/node_modules/terser/lib/compress/compressor-flags.js1673039289896964000 0
 98/home/sergioasusport/proyectos/medinatural.vid/node_modules/@babel/helper-validator-identifier/lib1673039269623848300 1
 93/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/packager-svg/package.json1673039273072486200 0
-72/home/sergioasusport/proyectos/medinatural.vid/src/css/menu-selected.css1674004100889807800 0
+72/home/sergioasusport/proyectos/medinatural.vid/src/css/menu-selected.css1674234876692893000 0
 110/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/core/test/fixtures/invalid-source-not-file1673039271246059800 1
 84/home/sergioasusport/proyectos/medinatural.vid/node_modules/timsort/build/timsort.js1673039290058766300 0
 76/home/sergioasusport/proyectos/medinatural.vid/node_modules/call-bind/.nycrc1673039280266702900 0
@@ -2244,7 +2244,7 @@
 96/home/sergioasusport/proyectos/medinatural.vid/node_modules/@jridgewell/resolve-uri/package.json1673039269876281500 0
 104/home/sergioasusport/proyectos/medinatural.vid/node_modules/@babel/helper-validator-identifier/README.md1673039269608217300 0
 100/home/sergioasusport/proyectos/medinatural.vid/node_modules/caniuse-lite/data/features/css-shapes.js1673039281011208000 0
-72/home/sergioasusport/proyectos/medinatural.vid/src/products/servicios.js1673835549790914200 0
+72/home/sergioasusport/proyectos/medinatural.vid/src/products/servicios.js1674227555288210000 0
 88/home/sergioasusport/proyectos/medinatural.vid/node_modules/css-tree/lib/lexer/search.js1673039284899491300 0
 89/home/sergioasusport/proyectos/medinatural.vid/node_modules/@mischnic/json-sourcemap/dist1673039270284763300 1
 142/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-alias-exclude/main.js1673039272068411500 0
@@ -2261,7 +2261,7 @@
 79/home/sergioasusport/proyectos/medinatural.vid/node_modules/has-symbols/.github1673039286347202800 1
 79/home/sergioasusport/proyectos/medinatural.vid/node_modules/braces/package.json1673039280058536100 0
 121/home/sergioasusport/proyectos/medinatural.vid/node_modules/caniuse-lite/data/features/client-hints-dpr-width-viewport.js1673039280506826200 0
-74/home/sergioasusport/proyectos/medinatural.vid/dist/index.39dfcbfd.css.map1674004100951585900 0
+74/home/sergioasusport/proyectos/medinatural.vid/dist/index.39dfcbfd.css.map1674234876729071800 0
 116/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/core/test/fixtures/invalid-target-source-missing1673039271264248600 1
 88/home/sergioasusport/proyectos/medinatural.vid/node_modules/commander/typings/index.d.ts1673039284541789800 0
 101/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/optimizer-css/src/CSSOptimizer.js1673039272397878100 0
@@ -2299,7 +2299,7 @@
 83/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/bundler-default1673039270348755200 1
 105/home/sergioasusport/proyectos/medinatural.vid/node_modules/@swc/helpers/src/_class_private_field_get.mjs1673039279322016300 0
 80/home/sergioasusport/proyectos/medinatural.vid/node_modules/@lmdb/lmdb-linux-x641673039270253482400 1
-51/home/sergioasusport/proyectos/medinatural.vid/dist1674004100959796000 1
+51/home/sergioasusport/proyectos/medinatural.vid/dist1674234876732260100 1
 87/home/sergioasusport/proyectos/medinatural.vid/node_modules/path-browserify/security.md1673039288670617400 0
 83/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/fs/lib/index.js1673039271675133400 0
 98/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/runtime-js/lib/helpers/browser1673039274106195500 1
@@ -2313,7 +2313,7 @@
 89/home/sergioasusport/proyectos/medinatural.vid/node_modules/available-typed-arrays/.nycrc1673039279874420700 0
 91/home/sergioasusport/proyectos/medinatural.vid/node_modules/caniuse-lite/data/regions/TM.js1673039284017062000 0
 146/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/source-not-symlinked/package.json1673039272303686900 0
-69/home/sergioasusport/proyectos/medinatural.vid/src/components/item.js1674003968121635200 0
+69/home/sergioasusport/proyectos/medinatural.vid/src/components/item.js1674227374888329400 0
 102/home/sergioasusport/proyectos/medinatural.vid/node_modules/css-tree/lib/syntax/node/MediaQueryList.js1673039285054533900 0
 140/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-false-glob/sub1673039272240758100 1
 116/home/sergioasusport/proyectos/medinatural.vid/node_modules/@babel/highlight/node_modules/color-convert/CHANGELOG.md1673039269702447100 0
@@ -2394,7 +2394,7 @@
 75/home/sergioasusport/proyectos/medinatural.vid/node_modules/lmdb/caching.js1673039287454218800 0
 101/home/sergioasusport/proyectos/medinatural.vid/node_modules/@swc/helpers/lib/_wrap_async_generator.js1673039279097837100 0
 90/home/sergioasusport/proyectos/medinatural.vid/node_modules/which-typed-array/CHANGELOG.md1673039290457608200 0
-69/home/sergioasusport/proyectos/medinatural.vid/dist/logo.08a29ce2.png1674004018659696300 0
+69/home/sergioasusport/proyectos/medinatural.vid/dist/logo.08a29ce2.png1674234760414956900 0
 77/home/sergioasusport/proyectos/medinatural.vid/node_modules/binary-extensions1673039279994509200 1
 101/home/sergioasusport/proyectos/medinatural.vid/node_modules/@babel/highlight/node_modules/chalk/types1673039269686813700 1
 86/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/graph/src/index.js1673039271769317400 0
@@ -2986,7 +2986,7 @@
 78/home/sergioasusport/proyectos/medinatural.vid/node_modules/svgo/lib/parser.js1673039289493010700 0
 108/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/core/lib/requests/ParcelConfigRequest.js1673039270712143800 0
 83/home/sergioasusport/proyectos/medinatural.vid/node_modules/fill-range/package.json1673039286124291700 0
-73/home/sergioasusport/proyectos/medinatural.vid/dist/index.975ef6c8.js.map1674004018666289900 0
+73/home/sergioasusport/proyectos/medinatural.vid/dist/index.975ef6c8.js.map1674234760416951800 0
 106/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/core/lib/requests/ValidationRequest.js1673039270727772500 0
 100/home/sergioasusport/proyectos/medinatural.vid/node_modules/abortcontroller-polyfill/src/ponyfill.js1673039279746305500 0
 107/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/core/lib/requests/WriteBundleRequest.js1673039270727772500 0
@@ -3067,7 +3067,7 @@
 101/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/utils/test/input/config/config.js1673039277950397000 0
 111/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/runtime-js/lib/helpers/browser/js-loader.js1673039274084194000 0
 92/home/sergioasusport/proyectos/medinatural.vid/node_modules/lines-and-columns/build/index.js1673039287431752900 0
-62/home/sergioasusport/proyectos/medinatural.vid/dist/index.html1674004018647568600 0
+62/home/sergioasusport/proyectos/medinatural.vid/dist/index.html1674234760382994200 0
 113/home/sergioasusport/proyectos/medinatural.vid/node_modules/caniuse-lite/data/features/css-overscroll-behavior.js1673039280915109300 0
 97/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/core/src/public/Dependency.js1673039270900968300 0
 100/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/node-resolver-core/lib/_empty.js1673039271958123700 0
@@ -3266,7 +3266,7 @@
 127/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/core/test/fixtures/targets-default-distdir-two/package.json1673039271382164000 0
 76/home/sergioasusport/proyectos/medinatural.vid/node_modules/timsort/index.js1673039290065991300 0
 98/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/core/test/ParcelConfig.test.js1673039271058162800 0
-71/home/sergioasusport/proyectos/medinatural.vid/src/products/contacto.js1673411404041886200 0
+71/home/sergioasusport/proyectos/medinatural.vid/src/products/contacto.js1674226750114416500 0
 66/home/sergioasusport/proyectos/medinatural.vid/node_modules/@types1673039279642240800 1
 99/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/core/lib/dumpGraphToGraphViz.js1673039270617965400 0
 149/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-package-redirect-up/foo1673039272288055900 1
@@ -3410,7 +3410,7 @@
 112/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/transformer-js/parcel-swc.linux-x64-gnu.node1673039276814524400 0
 113/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/transformer-js/parcel-swc.linux-x64-musl.node1673039277038524800 0
 107/home/sergioasusport/proyectos/medinatural.vid/node_modules/caniuse-lite/data/features/link-rel-prefetch.js1673039281967354900 0
-59/home/sergioasusport/proyectos/medinatural.vid/src/index.js1673835549770600100 0
+59/home/sergioasusport/proyectos/medinatural.vid/src/index.js1674234760079120000 0
 77/home/sergioasusport/proyectos/medinatural.vid/node_modules/lmdb/node_modules1673039287823435100 1
 104/home/sergioasusport/proyectos/medinatural.vid/node_modules/caniuse-lite/data/features/pagevisibility.js1673039282162846900 0
 77/home/sergioasusport/proyectos/medinatural.vid/node_modules/error-ex/index.js1673039286056700200 0
@@ -3425,7 +3425,7 @@
 100/home/sergioasusport/proyectos/medinatural.vid/node_modules/type-fest/source/fixed-length-array.d.ts1673039290183901200 0
 107/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/transformer-json/lib/JSONTransformer.js1673039277406911600 0
 92/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/transformer-json/LICENSE1673039277406911600 0
-73/home/sergioasusport/proyectos/medinatural.vid/src/products/homeopatia.js1673835549778778400 0
+73/home/sergioasusport/proyectos/medinatural.vid/src/products/homeopatia.js1674227522168509800 0
 87/home/sergioasusport/proyectos/medinatural.vid/node_modules/node-addon-api/node_api.gyp1673039288241493900 0
 110/home/sergioasusport/proyectos/medinatural.vid/node_modules/caniuse-lite/data/features/css-overflow-overlay.js1673039280907104800 0
 107/home/sergioasusport/proyectos/medinatural.vid/node_modules/@parcel/transformer-json/src/JSONTransformer.js1673039277422907800 0
@@ -4222,7 +4222,7 @@
 79/home/sergioasusport/proyectos/medinatural.vid/node_modules/json5/dist/index.js1673039287170578300 0
 91/home/sergioasusport/proyectos/medinatural.vid/node_modules/caniuse-lite/data/regions/TZ.js1673039284063600000 0
 109/home/sergioasusport/proyectos/medinatural.vid/node_modules/caniuse-lite/data/features/css-conic-gradients.js1673039280674970600 0
-61/home/sergioasusport/proyectos/medinatural.vid/src/index.html1673866546461357500 0
+61/home/sergioasusport/proyectos/medinatural.vid/src/index.html1674227714198507500 0
 66/home/sergioasusport/proyectos/medinatural.vid/node_modules/buffer1673039280242672100 1
 103/home/sergioasusport/proyectos/medinatural.vid/node_modules/caniuse-lite/data/features/css-variables.js1673039281090826000 0
 87/home/sergioasusport/proyectos/medinatural.vid/node_modules/terser/lib/equivalent-to.js1673039289939979200 0

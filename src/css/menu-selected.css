@@ -16,11 +16,20 @@
     margin-bottom: 6rem;
     border-radius: 2rem;
     margin: 4rem auto;
+
 }
 .item-info img{
     width: 100%;
     margin: 1rem auto 0 auto;
     max-width: 90rem;
+}
+.item-contact{
+    
+    width: 100%;
+}
+.item-contact img{
+    width: 15rem;
+    max-width: 15rem;
 }
 .item-info h3{
     font-size: 4rem;
@@ -28,8 +37,8 @@
 }
 .item-info p{
     font-size: 1.8rem;
-   
-    text-align: left;
+   margin-top: 2rem;
+    text-align: center
 }
 .image-product{
     width: 10rem;
@@ -72,4 +81,10 @@ iframe{
 .icon p{
     text-align: center;
     color: #003C4D;
+}
+.pdf iframe{
+    height: 94vh;
+    width: 100%;
+    max-width: 150vw;
+    margin: 0 auto;
 }
