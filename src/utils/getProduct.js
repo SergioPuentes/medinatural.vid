@@ -6,6 +6,7 @@ import returnItem from "../components/item"
 import getHash from "../utils/getHash"
 import herbalfruit from "../products/herbalfruit"
 import contacto from "../products/contacto"
+import plantasm from "../products/plantasm"
 let title = ""
 const data = ()=>{
     let hash = getHash()
@@ -28,6 +29,10 @@ const data = ()=>{
     else if(hash == "menu-selected6"){
         title = ""
         return herbalfruit
+    }
+    else if(hash == "menu-selected7"){
+        title = ""
+        return plantasm
     }
 }
 const menu = async ()=>{

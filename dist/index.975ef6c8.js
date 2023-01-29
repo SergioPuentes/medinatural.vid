@@ -544,11 +544,13 @@ let button3 = document.getElementById("menu-selected3");
 let button4 = document.getElementById("menu-selected4");
 let button5 = document.getElementById("menu-selected5");
 let button6 = document.getElementById("menu-selected6");
+let button7 = document.getElementById("menu-selected7");
 let button11 = document.getElementById("menuselected11");
 let button22 = document.getElementById("menuselected22");
 let button33 = document.getElementById("menuselected33");
 let button44 = document.getElementById("menuselected44");
 let button66 = document.getElementById("menuselected66");
+let button77 = document.getElementById("menuselected77");
 button1.addEventListener("click", async ()=>{
     await elegir("1");
     await (0, _indexDefault.default)();
@@ -579,6 +581,11 @@ button6.addEventListener("click", async ()=>{
     await (0, _indexDefault.default)();
     await scroll();
 });
+button7.addEventListener("click", async ()=>{
+    await elegir("7");
+    await (0, _indexDefault.default)();
+    await scroll();
+});
 button11.addEventListener("click", async ()=>{
     await elegir("1");
     await (0, _indexDefault.default)();
@@ -605,6 +612,12 @@ button44.addEventListener("click", async ()=>{
 });
 button66.addEventListener("click", async ()=>{
     await elegir("6");
+    await (0, _indexDefault.default)();
+    await scroll();
+    document.getElementById("btn-menu").checked = false;
+});
+button77.addEventListener("click", async ()=>{
+    await elegir("7");
     await (0, _indexDefault.default)();
     await scroll();
     document.getElementById("btn-menu").checked = false;
@@ -719,6 +732,8 @@ var _herbalfruit = require("../products/herbalfruit");
 var _herbalfruitDefault = parcelHelpers.interopDefault(_herbalfruit);
 var _contacto = require("../products/contacto");
 var _contactoDefault = parcelHelpers.interopDefault(_contacto);
+var _plantasm = require("../products/plantasm");
+var _plantasmDefault = parcelHelpers.interopDefault(_plantasm);
 let title = "";
 const data = ()=>{
     let hash = (0, _getHashDefault.default)();
@@ -740,6 +755,9 @@ const data = ()=>{
     } else if (hash == "menu-selected6") {
         title = "";
         return 0, _herbalfruitDefault.default;
+    } else if (hash == "menu-selected7") {
+        title = "";
+        return 0, _plantasmDefault.default;
     }
 };
 const menu = async ()=>{
@@ -758,7 +776,7 @@ const menu = async ()=>{
 };
 exports.default = menu;
 
-},{"../products/productos":"ceCzh","../products/sede":"jfqGO","../products/servicios":"lye8P","../products/homeopatia":"ijUHX","../components/item":"klNFr","../utils/getHash":"cBXxo","../products/herbalfruit":"fpzWO","../products/contacto":"d6ZcD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ceCzh":[function(require,module,exports) {
+},{"../products/productos":"ceCzh","../products/sede":"jfqGO","../products/servicios":"lye8P","../products/homeopatia":"ijUHX","../components/item":"klNFr","../utils/getHash":"cBXxo","../products/herbalfruit":"fpzWO","../products/contacto":"d6ZcD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../products/plantasm":"jZNxp"}],"ceCzh":[function(require,module,exports) {
 const products = [
     {
         name: "Herbolog\xeda y Fitoterapia",
@@ -1047,6 +1065,41 @@ const contacto = [
     }
 ];
 module.exports = contacto;
+
+},{}],"jZNxp":[function(require,module,exports) {
+const plantasm = [
+    {
+        name: "Plantas Maestras",
+        photo: "https://i.postimg.cc/L60k9yTN/Captura-de-pantalla-2023-01-28-193447.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/wMq5vZZb/2.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/j2MHJvrq/3.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/MZ5b4Zjk/4.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/Sx26JW1q/5.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/FsKgQtjY/6.png",
+        description: ""
+    }
+];
+module.exports = plantasm;
 
 },{}],"5Pv0i":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
