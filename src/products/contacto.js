@@ -2,21 +2,21 @@ const contacto = [
     {
         name:"Whatsapp",
         description:"¡Haz click para escribirnos por Whatsapp!",
-        photo:"https://cdn-icons-png.flaticon.com/128/733/733641.png",
+        photo:"https://cdn-icons-png.flaticon.com/512/2504/2504957.png",
         class:"item-contact",
         href:"https://api.whatsapp.com/send?phone=+573132381049&text=Hola,%20estoy%20interesado%20en%20mas%20informaci%C3%B3n%20respecto:"
     },
     {
         name:"Facebook",
         description:"¡Haz click para escribirnos por Facebook!",
-        photo:"https://cdn-icons-png.flaticon.com/128/1384/1384005.png",
+        photo:"https://cdn-icons-png.flaticon.com/512/2504/2504903.png",
         class:"item-contact",
         href:"https://www.facebook.com/profile.php?id=100087411810135&mibextid=ZbWKwL"
     },
     {
         name:"Telefono",
-        description:"LLamanos 3132381049",
-        photo:"https://cdn-icons-png.flaticon.com/512/2354/2354127.png",
+        description:"¡Haz click para LLamarnos 3132381049!",
+        photo:"https://cdn-icons-png.flaticon.com/512/226/226277.png",
         class:"item-contact",
         href:"tel:+3132381049"
     },

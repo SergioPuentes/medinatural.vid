@@ -1,9 +1,65 @@
 const products = [
     {
-        name:"Medicina Herbal y Fitoterapia",
-        source:`<iframe src="https://drive.google.com/file/d/10FN5QzDspEb4tGIY3CFzoxuE2_mykTyv/preview" width="640" height="480" allow="autoplay"></iframe>`,
+        name:"Herbología y Fitoterapia",
+        photo:"https://i.postimg.cc/zvqGH8d1/Captura-de-pantalla-2023-01-28-185715.png",
         description:"",
-        class:"pdf"
-    }   
+    },
+    {
+        name:"",
+        photo:"https://i.postimg.cc/2SSLXF7f/2.png",
+        description:"",
+    },{
+        name:"",
+        photo:"https://i.postimg.cc/wj4RKywR/3.png",
+        description:"",
+    },{
+        name:"",
+        photo:"https://i.postimg.cc/NG8ysPNc/4.png",
+        description:"",
+    },{
+        name:"",
+        photo:"https://i.postimg.cc/1tw8NWsD/5.png",
+        description:"",
+    },{
+        name:"",
+        photo:"https://i.postimg.cc/d07kJsfH/6.png",
+        description:"",
+    },{
+        name:"",
+        photo:"https://i.postimg.cc/RhTqgN3F/7.png",
+        description:"",
+    },{
+        name:"",
+        photo:"https://i.postimg.cc/wMz75hjZ/8.png",
+        description:"",
+    },{
+        name:"",
+        photo:"https://i.postimg.cc/s2tBxFdV/9.png",
+        description:"",
+    },{
+        name:"",
+        photo:"https://i.postimg.cc/5NxX6qGF/10.png",
+        description:"",
+    },{
+        name:"",
+        photo:"https://i.postimg.cc/bwrdRYqy/11.png",
+        description:"",
+    },{
+        name:"",
+        photo:"https://i.postimg.cc/xdbCWskB/12.png",
+        description:"",
+    },{
+        name:"",
+        photo:"https://i.postimg.cc/TwMwGrg1/13.png",
+        description:"",
+    },{
+        name:"",
+        photo:"https://i.postimg.cc/G2FppHxQ/14.png",
+        description:"",
+    },{
+        name:"",
+        photo:"https://i.postimg.cc/Z5Qnskqr/15.png",
+        description:"",
+    },
 ]
 module.exports = products

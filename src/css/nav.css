@@ -1,7 +1,7 @@
 header{
     width: 100%;
     background-color: #68fd68;
-    max-height: 8rem;
+    height: 8rem;
 }
 .barra{
     display: flex;
@@ -22,8 +22,9 @@ header{
 }
 nav{
     width: 100%;
-    max-width:65rem;
-    display: grid; 
+    max-width:55rem;
+    display: grid;
+    margin-right: 2rem; 
 }
 nav label{
     display: grid;
@@ -34,7 +35,11 @@ nav ul{
     display: flex;
     justify-content: space-between;
     margin: auto 0;
+    font-size: 1.5;
     
+}
+ul button li{
+    font-size: 1.5rem;
 }
 ul button {
     transition: .3s linear;
@@ -85,10 +90,8 @@ ul button li{
     height: 100%;
     position: relative;
     right: 0;
-    justify-self: flex-end;
     transform: translateX(0%);
     transition: all 500ms ease;
-    
 }
 .cont-menu nav{
     transform: translateY(15%);

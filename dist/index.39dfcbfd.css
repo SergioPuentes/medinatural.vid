@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: ROBOTO, sans-serif;
+  font-size: 1px;
   font-weight: 600;
   text-decoration: none;
 }
@@ -22,7 +23,7 @@ body {
 
 header {
   width: 100%;
-  max-height: 8rem;
+  height: 8rem;
   background-color: #68fd68;
 }
 
@@ -49,7 +50,8 @@ header {
 
 nav {
   width: 100%;
-  max-width: 65rem;
+  max-width: 55rem;
+  margin-right: 2rem;
   display: grid;
 }
 
@@ -61,8 +63,13 @@ nav label {
 nav ul {
   justify-content: space-between;
   margin: auto 0;
+  font-size: 1.5px;
   list-style: none;
   display: flex;
+}
+
+ul button li {
+  font-size: 1.5rem;
 }
 
 ul button {
@@ -114,7 +121,6 @@ ul button li {
   max-width: 250px;
   height: 100%;
   background-color: #1c1c1c;
-  justify-self: flex-end;
   transition: all .5s;
   position: relative;
   right: 0;
@@ -186,7 +192,6 @@ section h1 {
 section p {
   width: 100%;
   color: #003c4d;
-  margin-bottom: 4rem;
   padding: 0 1rem;
   font-size: 1.4rem;
   line-height: 20px;
@@ -195,6 +200,10 @@ section p {
 .img-welcome {
   width: 100%;
   margin-bottom: 3rem;
+}
+
+button {
+  font-size: 1.4rem;
 }
 
 .view-sedes {
@@ -238,34 +247,35 @@ section p {
   text-align: center;
   border-radius: 2rem;
   flex-direction: column;
-  margin: 4rem auto;
+  margin: 0 auto;
   display: flex;
 }
 
 .item-info img {
   width: 100%;
-  max-width: 90rem;
-  margin: 1rem auto 0;
+  max-width: 65rem;
+  margin: 0 auto;
 }
 
 .item-contact {
   width: 100%;
+  margin-bottom: 5rem;
 }
 
 .item-contact img {
-  width: 15rem;
-  max-width: 15rem;
+  width: 100%;
+  max-width: 12rem;
+  margin-bottom: 1rem;
 }
 
 .item-info h3 {
   font-family: Anton, sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .item-info p {
   text-align: center;
-  margin-top: 2rem;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 
 .image-product {
@@ -309,6 +319,10 @@ iframe {
   color: #003c4d;
 }
 
+iframe {
+  max-width: 98%;
+}
+
 .pdf iframe {
   height: 94vh;
   width: 100%;
@@ -319,7 +333,7 @@ iframe {
 .footer {
   width: 100%;
   height: 12rem;
-  background-color: #3f3;
+  background-color: #68fd68;
   display: flex;
 }
 
@@ -334,7 +348,7 @@ iframe {
 .footer .social-media {
   width: 100%;
   max-width: 20rem;
-  gap: 4rem;
+  justify-content: space-between;
   margin: 0 auto;
   display: flex;
 }

@@ -1,9 +1,67 @@
 const services = [
     {
-        name:"Servicios",
-        source:`<iframe src="https://drive.google.com/file/d/1Invflicpp4MFEW8egj19B5iGudaSzEmB/preview" width="640" height="480" allow="autoplay"></iframe>`,
+        name:"",
+        photo:"https://i.postimg.cc/Pq3V8PRD/1.png",
         description:"",
-        class:"pdf"
+    },
+    {
+        name:"",
+        photo:"https://i.postimg.cc/qRNbc4P5/2.png",
+        description:"",
+    }, 
+    {
+        name:"",
+        photo:"https://i.postimg.cc/x8KPgCtt/3.png",
+        description:"",
+    }, 
+    {
+        name:"",
+        photo:"https://i.postimg.cc/43SwxjYb/4.png",
+        description:"",
+    }, 
+    {
+        name:"",
+        photo:"https://i.postimg.cc/KvSqLXJ0/5.png",
+        description:"",
+    }, 
+    {
+        name:"",
+        photo:"https://i.postimg.cc/Bv6MsJnn/6.png",
+        description:"",
+    }, 
+    {
+        name:"",
+        photo:"https://i.postimg.cc/7PTtfPMC/7.png",
+        description:"",
+    }, 
+    {
+        name:"",
+        photo:"https://i.postimg.cc/T189rmqK/8.png",
+        description:"",
+    }, 
+    {
+        name:"",
+        photo:"https://i.postimg.cc/pXf0J0SR/9.png",
+        description:"",
+    }, {
+        name:"",
+        photo:"https://i.postimg.cc/3x3tSXMp/10.png",
+        description:"",
+    }, 
+    {
+        name:"",
+        photo:"https://i.postimg.cc/JzKP9smF/11.png",
+        description:"",
+    }, 
+    {
+        name:"",
+        photo:"https://i.postimg.cc/DZ46J5sV/12.png",
+        description:"",
+    }, 
+    {
+        name:"",
+        photo:"https://i.postimg.cc/SQ8VmTkC/Captura-de-pantalla-2023-01-28-071615.png",
+        description:"",
     }
 ]
 module.exports = services

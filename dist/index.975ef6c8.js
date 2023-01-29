@@ -761,10 +761,79 @@ exports.default = menu;
 },{"../products/productos":"ceCzh","../products/sede":"jfqGO","../products/servicios":"lye8P","../products/homeopatia":"ijUHX","../components/item":"klNFr","../utils/getHash":"cBXxo","../products/herbalfruit":"fpzWO","../products/contacto":"d6ZcD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ceCzh":[function(require,module,exports) {
 const products = [
     {
-        name: "Medicina Herbal y Fitoterapia",
-        source: `<iframe src="https://drive.google.com/file/d/10FN5QzDspEb4tGIY3CFzoxuE2_mykTyv/preview" width="640" height="480" allow="autoplay"></iframe>`,
-        description: "",
-        class: "pdf"
+        name: "Herbolog\xeda y Fitoterapia",
+        photo: "https://i.postimg.cc/zvqGH8d1/Captura-de-pantalla-2023-01-28-185715.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/2SSLXF7f/2.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/wj4RKywR/3.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/NG8ysPNc/4.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/1tw8NWsD/5.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/d07kJsfH/6.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/RhTqgN3F/7.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/wMz75hjZ/8.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/s2tBxFdV/9.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/5NxX6qGF/10.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/bwrdRYqy/11.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/xdbCWskB/12.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/TwMwGrg1/13.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/G2FppHxQ/14.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/Z5Qnskqr/15.png",
+        description: ""
     }
 ];
 module.exports = products;
@@ -802,10 +871,69 @@ module.exports = sede;
 },{}],"lye8P":[function(require,module,exports) {
 const services = [
     {
-        name: "Servicios",
-        source: `<iframe src="https://drive.google.com/file/d/1Invflicpp4MFEW8egj19B5iGudaSzEmB/preview" width="640" height="480" allow="autoplay"></iframe>`,
-        description: "",
-        class: "pdf"
+        name: "",
+        photo: "https://i.postimg.cc/Pq3V8PRD/1.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/qRNbc4P5/2.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/x8KPgCtt/3.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/43SwxjYb/4.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/KvSqLXJ0/5.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/Bv6MsJnn/6.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/7PTtfPMC/7.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/T189rmqK/8.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/pXf0J0SR/9.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/3x3tSXMp/10.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/JzKP9smF/11.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/DZ46J5sV/12.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/SQ8VmTkC/Captura-de-pantalla-2023-01-28-071615.png",
+        description: ""
     }
 ];
 module.exports = services;
@@ -814,9 +942,28 @@ module.exports = services;
 const homeopatia = [
     {
         name: "Homeopat\xeda",
-        source: `<iframe src="https://drive.google.com/file/d/12Ns0l1fR9kK5CqyN6SWRUpThrJEISnq6/preview" width="640" height="480" allow="autoplay"></iframe>`,
-        description: "",
-        class: "pdf"
+        photo: "https://i.postimg.cc/vTfp9fkB/11.pngs",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/P53MrXzw/2.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/Qt5gbpLQ/3.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/nLNYB3WV/4.png",
+        description: ""
+    },
+    {
+        name: "",
+        photo: "https://i.postimg.cc/L86TpYfS/5.png",
+        description: ""
     }
 ];
 module.exports = homeopatia;
@@ -874,21 +1021,21 @@ const contacto = [
     {
         name: "Whatsapp",
         description: "\xa1Haz click para escribirnos por Whatsapp!",
-        photo: "https://cdn-icons-png.flaticon.com/128/733/733641.png",
+        photo: "https://cdn-icons-png.flaticon.com/512/2504/2504957.png",
         class: "item-contact",
         href: "https://api.whatsapp.com/send?phone=+573132381049&text=Hola,%20estoy%20interesado%20en%20mas%20informaci%C3%B3n%20respecto:"
     },
     {
         name: "Facebook",
         description: "\xa1Haz click para escribirnos por Facebook!",
-        photo: "https://cdn-icons-png.flaticon.com/128/1384/1384005.png",
+        photo: "https://cdn-icons-png.flaticon.com/512/2504/2504903.png",
         class: "item-contact",
         href: "https://www.facebook.com/profile.php?id=100087411810135&mibextid=ZbWKwL"
     },
     {
         name: "Telefono",
-        description: "LLamanos 3132381049",
-        photo: "https://cdn-icons-png.flaticon.com/512/2354/2354127.png",
+        description: "\xa1Haz click para LLamarnos 3132381049!",
+        photo: "https://cdn-icons-png.flaticon.com/512/226/226277.png",
         class: "item-contact",
         href: "tel:+3132381049"
     },

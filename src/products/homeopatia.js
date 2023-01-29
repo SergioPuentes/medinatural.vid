@@ -1,9 +1,28 @@
 const homeopatia = [
     {
         name:"Homeopatía",
-        source:`<iframe src="https://drive.google.com/file/d/12Ns0l1fR9kK5CqyN6SWRUpThrJEISnq6/preview" width="640" height="480" allow="autoplay"></iframe>`,
+        photo:"https://i.postimg.cc/vTfp9fkB/11.pngs",
         description:"",
-        class:"pdf"
+    },
+    {
+        name:"",
+        photo:"https://i.postimg.cc/P53MrXzw/2.png",
+        description:"",
+    },
+    {
+        name:"",
+        photo:"https://i.postimg.cc/Qt5gbpLQ/3.png",
+        description:"",
+    },
+    {
+        name:"",
+        photo:"https://i.postimg.cc/nLNYB3WV/4.png",
+        description:"",
+    },
+    {
+        name:"",
+        photo:"https://i.postimg.cc/L86TpYfS/5.png",
+        description:"",
     }
 ]
 module.exports = homeopatia

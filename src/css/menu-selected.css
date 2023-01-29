@@ -13,31 +13,30 @@
     flex-direction: column;
     width: 90%;
     text-align: center;
-    margin-bottom: 6rem;
     border-radius: 2rem;
-    margin: 4rem auto;
+    margin: 0 auto;
 
 }
 .item-info img{
     width: 100%;
-    margin: 1rem auto 0 auto;
-    max-width: 90rem;
+    margin: 0 auto 0 auto;
+    max-width: 65rem;
 }
 .item-contact{
-    
+    margin-bottom: 5rem;
     width: 100%;
 }
 .item-contact img{
-    width: 15rem;
-    max-width: 15rem;
+    width: 100%;
+    max-width: 12rem;
+    margin-bottom: 1rem;
 }
 .item-info h3{
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: Anton ,sans-serif;
 }
 .item-info p{
-    font-size: 1.8rem;
-   margin-top: 2rem;
+    font-size: 1.4rem;
     text-align: center
 }
 .image-product{
@@ -81,6 +80,9 @@ iframe{
 .icon p{
     text-align: center;
     color: #003C4D;
+}
+iframe{
+    max-width: 98%;
 }
 .pdf iframe{
     height: 94vh;
